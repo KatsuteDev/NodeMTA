@@ -1,0 +1,39 @@
+{
+    "name": "@katsute/mta",
+    "version": "1.0.0",
+    "description": "The MTA Bus and Subway APIs all in one Node library",
+    "main": "index.js",
+    "scripts": {
+        "// -- dev -- //": "",
+        "clean": "",
+        "prune": "npm prune && npm i --package-lock --ignore-scripts",
+        "update": "npm update -D && npm i --package-lock --ignore-scripts && npm run prune",
+        "// -- build -- //": "",
+        "build": "",
+        "prepare": "npm run clean && npm run build",
+        "// -- deploy -- //": "",
+        "deploy": "",
+        "// -- test -- //": "",
+        "test": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KatsuteDev/NodeMTA.git"
+    },
+    "author": "Katsute",
+    "license": "GPL-2.0",
+    "bugs": {
+        "url": "https://github.com/KatsuteDev/NodeMTA/issues"
+    },
+    "homepage": "https://github.com/KatsuteDev/NodeMTA#readme",
+    "sponsor": {
+        "url": "https://ko-fi.com/katsute"
+    },
+    "devDependencies": {
+        "protoc-gen-js": "^3.21.2",
+        "typescript": "5.3.3"
+    },
+    "dependencies": {
+        "protobufjs": "7.2.5"
+    }
+}

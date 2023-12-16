@@ -1,0 +1,5 @@
+{
+    "image": "node:20",
+    "postAttachCommand": "git submodule update --init; ./install.sh; npm i",
+    "shutdownAction": "stopContainer"
+}
