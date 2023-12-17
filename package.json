@@ -30,10 +30,11 @@
         "url": "https://ko-fi.com/katsute"
     },
     "devDependencies": {
-        "protoc-gen-js": "^3.21.2",
+        "@types/node": "^20.10.4",
         "typescript": "5.3.3"
     },
     "dependencies": {
+        "google-protobuf": "3.21.2",
         "protobufjs": "7.2.5"
     }
 }
