@@ -110,8 +110,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.MercuryEntitySelector.displayName = 'proto.transit_realtime.MercuryEntitySelector';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -128,7 +126,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MercuryFeedHeader.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MercuryFeedHeader.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -151,7 +148,6 @@ proto.transit_realtime.MercuryFeedHeader.toObject = function(includeInstance, ms
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -162,7 +158,6 @@ proto.transit_realtime.MercuryFeedHeader.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.MercuryFeedHeader;
   return proto.transit_realtime.MercuryFeedHeader.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -190,7 +185,6 @@ proto.transit_realtime.MercuryFeedHeader.deserializeBinaryFromReader = function(
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -200,7 +194,6 @@ proto.transit_realtime.MercuryFeedHeader.prototype.serializeBinary = function() 
   proto.transit_realtime.MercuryFeedHeader.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -220,7 +213,6 @@ proto.transit_realtime.MercuryFeedHeader.serializeBinaryToWriter = function(mess
   }
 };
 
-
 /**
  * required string mercury_version = 1;
  * @return {string}
@@ -228,7 +220,6 @@ proto.transit_realtime.MercuryFeedHeader.serializeBinaryToWriter = function(mess
 proto.transit_realtime.MercuryFeedHeader.prototype.getMercuryVersion = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -238,7 +229,6 @@ proto.transit_realtime.MercuryFeedHeader.prototype.setMercuryVersion = function(
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MercuryFeedHeader} returns this
@@ -247,7 +237,6 @@ proto.transit_realtime.MercuryFeedHeader.prototype.clearMercuryVersion = functio
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -255,10 +244,6 @@ proto.transit_realtime.MercuryFeedHeader.prototype.clearMercuryVersion = functio
 proto.transit_realtime.MercuryFeedHeader.prototype.hasMercuryVersion = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -276,7 +261,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MercuryStationAlternative.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MercuryStationAlternative.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -300,7 +284,6 @@ proto.transit_realtime.MercuryStationAlternative.toObject = function(includeInst
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -311,7 +294,6 @@ proto.transit_realtime.MercuryStationAlternative.deserializeBinary = function(by
   var msg = new proto.transit_realtime.MercuryStationAlternative;
   return proto.transit_realtime.MercuryStationAlternative.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -345,7 +327,6 @@ proto.transit_realtime.MercuryStationAlternative.deserializeBinaryFromReader = f
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -355,7 +336,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.serializeBinary = fun
   proto.transit_realtime.MercuryStationAlternative.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -384,7 +364,6 @@ proto.transit_realtime.MercuryStationAlternative.serializeBinaryToWriter = funct
   }
 };
 
-
 /**
  * required EntitySelector affected_entity = 1;
  * @return {!proto.transit_realtime.EntitySelector}
@@ -394,7 +373,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.getAffectedEntity = f
     jspb.Message.getWrapperField(this, gtfs$realtime_pb.EntitySelector, 1, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.EntitySelector} value
  * @return {!proto.transit_realtime.MercuryStationAlternative} returns this
@@ -402,7 +380,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.getAffectedEntity = f
 proto.transit_realtime.MercuryStationAlternative.prototype.setAffectedEntity = function(value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -412,7 +389,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.clearAffectedEntity =
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -420,7 +396,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.clearAffectedEntity =
 proto.transit_realtime.MercuryStationAlternative.prototype.hasAffectedEntity = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * required TranslatedString notes = 2;
@@ -431,7 +406,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.getNotes = function()
     jspb.Message.getWrapperField(this, gtfs$realtime_pb.TranslatedString, 2, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.TranslatedString} value
  * @return {!proto.transit_realtime.MercuryStationAlternative} returns this
@@ -439,7 +413,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.getNotes = function()
 proto.transit_realtime.MercuryStationAlternative.prototype.setNotes = function(value) {
   return jspb.Message.setWrapperField(this, 2, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -449,7 +422,6 @@ proto.transit_realtime.MercuryStationAlternative.prototype.clearNotes = function
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -458,16 +430,12 @@ proto.transit_realtime.MercuryStationAlternative.prototype.hasNotes = function()
   return jspb.Message.getField(this, 2) != null;
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.MercuryAlert.repeatedFields_ = [4,5,6,10];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -485,7 +453,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MercuryAlert.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MercuryAlert.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -522,7 +489,6 @@ proto.transit_realtime.MercuryAlert.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -533,7 +499,6 @@ proto.transit_realtime.MercuryAlert.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.MercuryAlert;
   return proto.transit_realtime.MercuryAlert.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -613,7 +578,6 @@ proto.transit_realtime.MercuryAlert.deserializeBinaryFromReader = function(msg, 
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -623,7 +587,6 @@ proto.transit_realtime.MercuryAlert.prototype.serializeBinary = function() {
   proto.transit_realtime.MercuryAlert.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -731,7 +694,6 @@ proto.transit_realtime.MercuryAlert.serializeBinaryToWriter = function(message, 
   }
 };
 
-
 /**
  * required uint64 created_at = 1;
  * @return {number}
@@ -739,7 +701,6 @@ proto.transit_realtime.MercuryAlert.serializeBinaryToWriter = function(message, 
 proto.transit_realtime.MercuryAlert.prototype.getCreatedAt = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
@@ -749,7 +710,6 @@ proto.transit_realtime.MercuryAlert.prototype.setCreatedAt = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -757,7 +717,6 @@ proto.transit_realtime.MercuryAlert.prototype.setCreatedAt = function(value) {
 proto.transit_realtime.MercuryAlert.prototype.clearCreatedAt = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -767,7 +726,6 @@ proto.transit_realtime.MercuryAlert.prototype.hasCreatedAt = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * required uint64 updated_at = 2;
  * @return {number}
@@ -775,7 +733,6 @@ proto.transit_realtime.MercuryAlert.prototype.hasCreatedAt = function() {
 proto.transit_realtime.MercuryAlert.prototype.getUpdatedAt = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
@@ -785,7 +742,6 @@ proto.transit_realtime.MercuryAlert.prototype.setUpdatedAt = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -793,7 +749,6 @@ proto.transit_realtime.MercuryAlert.prototype.setUpdatedAt = function(value) {
 proto.transit_realtime.MercuryAlert.prototype.clearUpdatedAt = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -803,7 +758,6 @@ proto.transit_realtime.MercuryAlert.prototype.hasUpdatedAt = function() {
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * required string alert_type = 3;
  * @return {string}
@@ -811,7 +765,6 @@ proto.transit_realtime.MercuryAlert.prototype.hasUpdatedAt = function() {
 proto.transit_realtime.MercuryAlert.prototype.getAlertType = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
 };
-
 
 /**
  * @param {string} value
@@ -821,7 +774,6 @@ proto.transit_realtime.MercuryAlert.prototype.setAlertType = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -830,7 +782,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearAlertType = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -838,7 +789,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearAlertType = function() {
 proto.transit_realtime.MercuryAlert.prototype.hasAlertType = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * repeated MercuryStationAlternative station_alternative = 4;
@@ -849,7 +799,6 @@ proto.transit_realtime.MercuryAlert.prototype.getStationAlternativeList = functi
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.MercuryStationAlternative, 4));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.MercuryStationAlternative>} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -857,7 +806,6 @@ proto.transit_realtime.MercuryAlert.prototype.getStationAlternativeList = functi
 proto.transit_realtime.MercuryAlert.prototype.setStationAlternativeList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 4, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.MercuryStationAlternative=} opt_value
@@ -868,7 +816,6 @@ proto.transit_realtime.MercuryAlert.prototype.addStationAlternative = function(o
   return jspb.Message.addToRepeatedWrapperField(this, 4, opt_value, proto.transit_realtime.MercuryStationAlternative, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -876,7 +823,6 @@ proto.transit_realtime.MercuryAlert.prototype.addStationAlternative = function(o
 proto.transit_realtime.MercuryAlert.prototype.clearStationAlternativeList = function() {
   return this.setStationAlternativeList([]);
 };
-
 
 /**
  * repeated string service_plan_number = 5;
@@ -886,7 +832,6 @@ proto.transit_realtime.MercuryAlert.prototype.getServicePlanNumberList = functio
   return /** @type {!Array<string>} */ (jspb.Message.getRepeatedField(this, 5));
 };
 
-
 /**
  * @param {!Array<string>} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -894,7 +839,6 @@ proto.transit_realtime.MercuryAlert.prototype.getServicePlanNumberList = functio
 proto.transit_realtime.MercuryAlert.prototype.setServicePlanNumberList = function(value) {
   return jspb.Message.setField(this, 5, value || []);
 };
-
 
 /**
  * @param {string} value
@@ -905,7 +849,6 @@ proto.transit_realtime.MercuryAlert.prototype.addServicePlanNumber = function(va
   return jspb.Message.addToRepeatedField(this, 5, value, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -913,7 +856,6 @@ proto.transit_realtime.MercuryAlert.prototype.addServicePlanNumber = function(va
 proto.transit_realtime.MercuryAlert.prototype.clearServicePlanNumberList = function() {
   return this.setServicePlanNumberList([]);
 };
-
 
 /**
  * repeated string general_order_number = 6;
@@ -923,7 +865,6 @@ proto.transit_realtime.MercuryAlert.prototype.getGeneralOrderNumberList = functi
   return /** @type {!Array<string>} */ (jspb.Message.getRepeatedField(this, 6));
 };
 
-
 /**
  * @param {!Array<string>} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -931,7 +872,6 @@ proto.transit_realtime.MercuryAlert.prototype.getGeneralOrderNumberList = functi
 proto.transit_realtime.MercuryAlert.prototype.setGeneralOrderNumberList = function(value) {
   return jspb.Message.setField(this, 6, value || []);
 };
-
 
 /**
  * @param {string} value
@@ -942,7 +882,6 @@ proto.transit_realtime.MercuryAlert.prototype.addGeneralOrderNumber = function(v
   return jspb.Message.addToRepeatedField(this, 6, value, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -950,7 +889,6 @@ proto.transit_realtime.MercuryAlert.prototype.addGeneralOrderNumber = function(v
 proto.transit_realtime.MercuryAlert.prototype.clearGeneralOrderNumberList = function() {
   return this.setGeneralOrderNumberList([]);
 };
-
 
 /**
  * optional uint64 display_before_active = 7;
@@ -960,7 +898,6 @@ proto.transit_realtime.MercuryAlert.prototype.getDisplayBeforeActive = function(
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 7, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -968,7 +905,6 @@ proto.transit_realtime.MercuryAlert.prototype.getDisplayBeforeActive = function(
 proto.transit_realtime.MercuryAlert.prototype.setDisplayBeforeActive = function(value) {
   return jspb.Message.setField(this, 7, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -978,7 +914,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearDisplayBeforeActive = functio
   return jspb.Message.setField(this, 7, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -986,7 +921,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearDisplayBeforeActive = functio
 proto.transit_realtime.MercuryAlert.prototype.hasDisplayBeforeActive = function() {
   return jspb.Message.getField(this, 7) != null;
 };
-
 
 /**
  * optional TranslatedString human_readable_active_period = 8;
@@ -997,7 +931,6 @@ proto.transit_realtime.MercuryAlert.prototype.getHumanReadableActivePeriod = fun
     jspb.Message.getWrapperField(this, gtfs$realtime_pb.TranslatedString, 8));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1005,7 +938,6 @@ proto.transit_realtime.MercuryAlert.prototype.getHumanReadableActivePeriod = fun
 proto.transit_realtime.MercuryAlert.prototype.setHumanReadableActivePeriod = function(value) {
   return jspb.Message.setWrapperField(this, 8, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -1015,7 +947,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearHumanReadableActivePeriod = f
   return this.setHumanReadableActivePeriod(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1023,7 +954,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearHumanReadableActivePeriod = f
 proto.transit_realtime.MercuryAlert.prototype.hasHumanReadableActivePeriod = function() {
   return jspb.Message.getField(this, 8) != null;
 };
-
 
 /**
  * optional uint64 directionality = 9;
@@ -1033,7 +963,6 @@ proto.transit_realtime.MercuryAlert.prototype.getDirectionality = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 9, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1041,7 +970,6 @@ proto.transit_realtime.MercuryAlert.prototype.getDirectionality = function() {
 proto.transit_realtime.MercuryAlert.prototype.setDirectionality = function(value) {
   return jspb.Message.setField(this, 9, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1051,7 +979,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearDirectionality = function() {
   return jspb.Message.setField(this, 9, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1059,7 +986,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearDirectionality = function() {
 proto.transit_realtime.MercuryAlert.prototype.hasDirectionality = function() {
   return jspb.Message.getField(this, 9) != null;
 };
-
 
 /**
  * repeated EntitySelector affected_stations = 10;
@@ -1070,7 +996,6 @@ proto.transit_realtime.MercuryAlert.prototype.getAffectedStationsList = function
     jspb.Message.getRepeatedWrapperField(this, gtfs$realtime_pb.EntitySelector, 10));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.EntitySelector>} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1078,7 +1003,6 @@ proto.transit_realtime.MercuryAlert.prototype.getAffectedStationsList = function
 proto.transit_realtime.MercuryAlert.prototype.setAffectedStationsList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 10, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.EntitySelector=} opt_value
@@ -1089,7 +1013,6 @@ proto.transit_realtime.MercuryAlert.prototype.addAffectedStations = function(opt
   return jspb.Message.addToRepeatedWrapperField(this, 10, opt_value, proto.transit_realtime.EntitySelector, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1097,7 +1020,6 @@ proto.transit_realtime.MercuryAlert.prototype.addAffectedStations = function(opt
 proto.transit_realtime.MercuryAlert.prototype.clearAffectedStationsList = function() {
   return this.setAffectedStationsList([]);
 };
-
 
 /**
  * optional TranslatedString screens_summary = 11;
@@ -1108,7 +1030,6 @@ proto.transit_realtime.MercuryAlert.prototype.getScreensSummary = function() {
     jspb.Message.getWrapperField(this, gtfs$realtime_pb.TranslatedString, 11));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1116,7 +1037,6 @@ proto.transit_realtime.MercuryAlert.prototype.getScreensSummary = function() {
 proto.transit_realtime.MercuryAlert.prototype.setScreensSummary = function(value) {
   return jspb.Message.setWrapperField(this, 11, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -1126,7 +1046,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearScreensSummary = function() {
   return this.setScreensSummary(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1134,7 +1053,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearScreensSummary = function() {
 proto.transit_realtime.MercuryAlert.prototype.hasScreensSummary = function() {
   return jspb.Message.getField(this, 11) != null;
 };
-
 
 /**
  * optional bool no_affected_stations = 12;
@@ -1144,7 +1062,6 @@ proto.transit_realtime.MercuryAlert.prototype.getNoAffectedStations = function()
   return /** @type {boolean} */ (jspb.Message.getBooleanFieldWithDefault(this, 12, false));
 };
 
-
 /**
  * @param {boolean} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1152,7 +1069,6 @@ proto.transit_realtime.MercuryAlert.prototype.getNoAffectedStations = function()
 proto.transit_realtime.MercuryAlert.prototype.setNoAffectedStations = function(value) {
   return jspb.Message.setField(this, 12, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1162,7 +1078,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearNoAffectedStations = function
   return jspb.Message.setField(this, 12, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1170,7 +1085,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearNoAffectedStations = function
 proto.transit_realtime.MercuryAlert.prototype.hasNoAffectedStations = function() {
   return jspb.Message.getField(this, 12) != null;
 };
-
 
 /**
  * optional string clone_id = 13;
@@ -1180,7 +1094,6 @@ proto.transit_realtime.MercuryAlert.prototype.getCloneId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 13, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.MercuryAlert} returns this
@@ -1188,7 +1101,6 @@ proto.transit_realtime.MercuryAlert.prototype.getCloneId = function() {
 proto.transit_realtime.MercuryAlert.prototype.setCloneId = function(value) {
   return jspb.Message.setField(this, 13, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1198,7 +1110,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearCloneId = function() {
   return jspb.Message.setField(this, 13, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1206,10 +1117,6 @@ proto.transit_realtime.MercuryAlert.prototype.clearCloneId = function() {
 proto.transit_realtime.MercuryAlert.prototype.hasCloneId = function() {
   return jspb.Message.getField(this, 13) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -1227,7 +1134,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MercuryEntitySelector.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MercuryEntitySelector.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1250,7 +1156,6 @@ proto.transit_realtime.MercuryEntitySelector.toObject = function(includeInstance
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1261,7 +1166,6 @@ proto.transit_realtime.MercuryEntitySelector.deserializeBinary = function(bytes)
   var msg = new proto.transit_realtime.MercuryEntitySelector;
   return proto.transit_realtime.MercuryEntitySelector.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1289,7 +1193,6 @@ proto.transit_realtime.MercuryEntitySelector.deserializeBinaryFromReader = funct
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1299,7 +1202,6 @@ proto.transit_realtime.MercuryEntitySelector.prototype.serializeBinary = functio
   proto.transit_realtime.MercuryEntitySelector.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1318,7 +1220,6 @@ proto.transit_realtime.MercuryEntitySelector.serializeBinaryToWriter = function(
     );
   }
 };
-
 
 /**
  * @enum {number}
@@ -1367,7 +1268,6 @@ proto.transit_realtime.MercuryEntitySelector.prototype.getSortOrder = function()
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.MercuryEntitySelector} returns this
@@ -1375,7 +1275,6 @@ proto.transit_realtime.MercuryEntitySelector.prototype.getSortOrder = function()
 proto.transit_realtime.MercuryEntitySelector.prototype.setSortOrder = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1385,7 +1284,6 @@ proto.transit_realtime.MercuryEntitySelector.prototype.clearSortOrder = function
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1393,8 +1291,6 @@ proto.transit_realtime.MercuryEntitySelector.prototype.clearSortOrder = function
 proto.transit_realtime.MercuryEntitySelector.prototype.hasSortOrder = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
@@ -1420,7 +1316,6 @@ gtfs$realtime_pb.FeedHeader.extensionsBinary[1001] = new jspb.ExtensionFieldBina
 // toObject() will function correctly.
 gtfs$realtime_pb.FeedHeader.extensions[1001] = proto.transit_realtime.mercuryFeedHeader;
 
-
 /**
  * A tuple of {field number, class constructor} for the extension
  * field named `mercuryAlert`.
@@ -1444,7 +1339,6 @@ gtfs$realtime_pb.Alert.extensionsBinary[1001] = new jspb.ExtensionFieldBinaryInf
 // This registers the extension field with the extended class, so that
 // toObject() will function correctly.
 gtfs$realtime_pb.Alert.extensions[1001] = proto.transit_realtime.mercuryAlert;
-
 
 /**
  * A tuple of {field number, class constructor} for the extension

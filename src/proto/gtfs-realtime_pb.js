@@ -77,7 +77,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.FeedMessage.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -127,7 +126,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.FeedHeader.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -179,7 +177,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.FeedEntity.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -229,7 +226,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.TripUpdate.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -281,7 +277,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.TripUpdate.StopTimeEvent.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -331,7 +326,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.TripUpdate.StopTimeUpdate.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -383,7 +377,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.TripUpdate.TripProperties.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -433,7 +426,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.VehiclePosition.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -485,7 +477,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.VehiclePosition.CarriageDetails.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -535,7 +526,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.Alert.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -587,7 +577,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.TimeRange.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -637,7 +626,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.Position.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -689,7 +677,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.TripDescriptor.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -739,7 +726,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.VehicleDescriptor.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -791,7 +777,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.EntitySelector.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -841,7 +826,6 @@ if (goog.DEBUG && !COMPILED) {
  * @type {!Object<number, jspb.ExtensionFieldInfo>}
  */
 proto.transit_realtime.TranslatedString.extensions = {};
-
 
 /**
  * The extensions registered with this message class. This is a map of
@@ -893,7 +877,6 @@ if (goog.DEBUG && !COMPILED) {
  */
 proto.transit_realtime.TranslatedString.Translation.extensions = {};
 
-
 /**
  * The extensions registered with this message class. This is a map of
  * extension field number to fieldInfo object.
@@ -908,15 +891,12 @@ proto.transit_realtime.TranslatedString.Translation.extensions = {};
  */
 proto.transit_realtime.TranslatedString.Translation.extensionsBinary = {};
 
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.FeedMessage.repeatedFields_ = [2];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -934,7 +914,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.FeedMessage.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.FeedMessage.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -962,7 +941,6 @@ proto.transit_realtime.FeedMessage.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -973,7 +951,6 @@ proto.transit_realtime.FeedMessage.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.FeedMessage;
   return proto.transit_realtime.FeedMessage.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1010,7 +987,6 @@ proto.transit_realtime.FeedMessage.deserializeBinaryFromReader = function(msg, r
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1020,7 +996,6 @@ proto.transit_realtime.FeedMessage.prototype.serializeBinary = function() {
   proto.transit_realtime.FeedMessage.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1051,7 +1026,6 @@ proto.transit_realtime.FeedMessage.serializeBinaryToWriter = function(message, w
     proto.transit_realtime.FeedMessage.extensionsBinary, proto.transit_realtime.FeedMessage.prototype.getExtension);
 };
 
-
 /**
  * required FeedHeader header = 1;
  * @return {!proto.transit_realtime.FeedHeader}
@@ -1061,7 +1035,6 @@ proto.transit_realtime.FeedMessage.prototype.getHeader = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.FeedHeader, 1, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.FeedHeader} value
  * @return {!proto.transit_realtime.FeedMessage} returns this
@@ -1069,7 +1042,6 @@ proto.transit_realtime.FeedMessage.prototype.getHeader = function() {
 proto.transit_realtime.FeedMessage.prototype.setHeader = function(value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1079,7 +1051,6 @@ proto.transit_realtime.FeedMessage.prototype.clearHeader = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1087,7 +1058,6 @@ proto.transit_realtime.FeedMessage.prototype.clearHeader = function() {
 proto.transit_realtime.FeedMessage.prototype.hasHeader = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * repeated FeedEntity entity = 2;
@@ -1098,7 +1068,6 @@ proto.transit_realtime.FeedMessage.prototype.getEntityList = function() {
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.FeedEntity, 2));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.FeedEntity>} value
  * @return {!proto.transit_realtime.FeedMessage} returns this
@@ -1106,7 +1075,6 @@ proto.transit_realtime.FeedMessage.prototype.getEntityList = function() {
 proto.transit_realtime.FeedMessage.prototype.setEntityList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 2, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.FeedEntity=} opt_value
@@ -1117,7 +1085,6 @@ proto.transit_realtime.FeedMessage.prototype.addEntity = function(opt_value, opt
   return jspb.Message.addToRepeatedWrapperField(this, 2, opt_value, proto.transit_realtime.FeedEntity, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.FeedMessage} returns this
@@ -1125,10 +1092,6 @@ proto.transit_realtime.FeedMessage.prototype.addEntity = function(opt_value, opt
 proto.transit_realtime.FeedMessage.prototype.clearEntityList = function() {
   return this.setEntityList([]);
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -1146,7 +1109,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.FeedHeader.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.FeedHeader.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1174,7 +1136,6 @@ proto.transit_realtime.FeedHeader.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1185,7 +1146,6 @@ proto.transit_realtime.FeedHeader.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.FeedHeader;
   return proto.transit_realtime.FeedHeader.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1224,7 +1184,6 @@ proto.transit_realtime.FeedHeader.deserializeBinaryFromReader = function(msg, re
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1234,7 +1193,6 @@ proto.transit_realtime.FeedHeader.prototype.serializeBinary = function() {
   proto.transit_realtime.FeedHeader.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1270,7 +1228,6 @@ proto.transit_realtime.FeedHeader.serializeBinaryToWriter = function(message, wr
     proto.transit_realtime.FeedHeader.extensionsBinary, proto.transit_realtime.FeedHeader.prototype.getExtension);
 };
 
-
 /**
  * @enum {number}
  */
@@ -1287,7 +1244,6 @@ proto.transit_realtime.FeedHeader.prototype.getGtfsRealtimeVersion = function() 
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.FeedHeader} returns this
@@ -1295,7 +1251,6 @@ proto.transit_realtime.FeedHeader.prototype.getGtfsRealtimeVersion = function() 
 proto.transit_realtime.FeedHeader.prototype.setGtfsRealtimeVersion = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1305,7 +1260,6 @@ proto.transit_realtime.FeedHeader.prototype.clearGtfsRealtimeVersion = function(
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1313,7 +1267,6 @@ proto.transit_realtime.FeedHeader.prototype.clearGtfsRealtimeVersion = function(
 proto.transit_realtime.FeedHeader.prototype.hasGtfsRealtimeVersion = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional Incrementality incrementality = 2;
@@ -1323,7 +1276,6 @@ proto.transit_realtime.FeedHeader.prototype.getIncrementality = function() {
   return /** @type {!proto.transit_realtime.FeedHeader.Incrementality} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.FeedHeader.Incrementality} value
  * @return {!proto.transit_realtime.FeedHeader} returns this
@@ -1331,7 +1283,6 @@ proto.transit_realtime.FeedHeader.prototype.getIncrementality = function() {
 proto.transit_realtime.FeedHeader.prototype.setIncrementality = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1341,7 +1292,6 @@ proto.transit_realtime.FeedHeader.prototype.clearIncrementality = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1349,7 +1299,6 @@ proto.transit_realtime.FeedHeader.prototype.clearIncrementality = function() {
 proto.transit_realtime.FeedHeader.prototype.hasIncrementality = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional uint64 timestamp = 3;
@@ -1359,7 +1308,6 @@ proto.transit_realtime.FeedHeader.prototype.getTimestamp = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.FeedHeader} returns this
@@ -1367,7 +1315,6 @@ proto.transit_realtime.FeedHeader.prototype.getTimestamp = function() {
 proto.transit_realtime.FeedHeader.prototype.setTimestamp = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -1377,7 +1324,6 @@ proto.transit_realtime.FeedHeader.prototype.clearTimestamp = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1385,10 +1331,6 @@ proto.transit_realtime.FeedHeader.prototype.clearTimestamp = function() {
 proto.transit_realtime.FeedHeader.prototype.hasTimestamp = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -1406,7 +1348,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.FeedEntity.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.FeedEntity.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1436,7 +1377,6 @@ proto.transit_realtime.FeedEntity.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1447,7 +1387,6 @@ proto.transit_realtime.FeedEntity.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.FeedEntity;
   return proto.transit_realtime.FeedEntity.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1497,7 +1436,6 @@ proto.transit_realtime.FeedEntity.deserializeBinaryFromReader = function(msg, re
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1507,7 +1445,6 @@ proto.transit_realtime.FeedEntity.prototype.serializeBinary = function() {
   proto.transit_realtime.FeedEntity.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1560,7 +1497,6 @@ proto.transit_realtime.FeedEntity.serializeBinaryToWriter = function(message, wr
     proto.transit_realtime.FeedEntity.extensionsBinary, proto.transit_realtime.FeedEntity.prototype.getExtension);
 };
 
-
 /**
  * required string id = 1;
  * @return {string}
@@ -1568,7 +1504,6 @@ proto.transit_realtime.FeedEntity.serializeBinaryToWriter = function(message, wr
 proto.transit_realtime.FeedEntity.prototype.getId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -1578,7 +1513,6 @@ proto.transit_realtime.FeedEntity.prototype.setId = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.FeedEntity} returns this
@@ -1586,7 +1520,6 @@ proto.transit_realtime.FeedEntity.prototype.setId = function(value) {
 proto.transit_realtime.FeedEntity.prototype.clearId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -1596,7 +1529,6 @@ proto.transit_realtime.FeedEntity.prototype.hasId = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional bool is_deleted = 2;
  * @return {boolean}
@@ -1604,7 +1536,6 @@ proto.transit_realtime.FeedEntity.prototype.hasId = function() {
 proto.transit_realtime.FeedEntity.prototype.getIsDeleted = function() {
   return /** @type {boolean} */ (jspb.Message.getBooleanFieldWithDefault(this, 2, false));
 };
-
 
 /**
  * @param {boolean} value
@@ -1614,7 +1545,6 @@ proto.transit_realtime.FeedEntity.prototype.setIsDeleted = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.FeedEntity} returns this
@@ -1623,7 +1553,6 @@ proto.transit_realtime.FeedEntity.prototype.clearIsDeleted = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1631,7 +1560,6 @@ proto.transit_realtime.FeedEntity.prototype.clearIsDeleted = function() {
 proto.transit_realtime.FeedEntity.prototype.hasIsDeleted = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional TripUpdate trip_update = 3;
@@ -1642,7 +1570,6 @@ proto.transit_realtime.FeedEntity.prototype.getTripUpdate = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripUpdate, 3));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TripUpdate|undefined} value
  * @return {!proto.transit_realtime.FeedEntity} returns this
@@ -1650,7 +1577,6 @@ proto.transit_realtime.FeedEntity.prototype.getTripUpdate = function() {
 proto.transit_realtime.FeedEntity.prototype.setTripUpdate = function(value) {
   return jspb.Message.setWrapperField(this, 3, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -1660,7 +1586,6 @@ proto.transit_realtime.FeedEntity.prototype.clearTripUpdate = function() {
   return this.setTripUpdate(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1668,7 +1593,6 @@ proto.transit_realtime.FeedEntity.prototype.clearTripUpdate = function() {
 proto.transit_realtime.FeedEntity.prototype.hasTripUpdate = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * optional VehiclePosition vehicle = 4;
@@ -1679,7 +1603,6 @@ proto.transit_realtime.FeedEntity.prototype.getVehicle = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.VehiclePosition, 4));
 };
 
-
 /**
  * @param {?proto.transit_realtime.VehiclePosition|undefined} value
  * @return {!proto.transit_realtime.FeedEntity} returns this
@@ -1687,7 +1610,6 @@ proto.transit_realtime.FeedEntity.prototype.getVehicle = function() {
 proto.transit_realtime.FeedEntity.prototype.setVehicle = function(value) {
   return jspb.Message.setWrapperField(this, 4, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -1697,7 +1619,6 @@ proto.transit_realtime.FeedEntity.prototype.clearVehicle = function() {
   return this.setVehicle(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1705,7 +1626,6 @@ proto.transit_realtime.FeedEntity.prototype.clearVehicle = function() {
 proto.transit_realtime.FeedEntity.prototype.hasVehicle = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
 
 /**
  * optional Alert alert = 5;
@@ -1716,7 +1636,6 @@ proto.transit_realtime.FeedEntity.prototype.getAlert = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.Alert, 5));
 };
 
-
 /**
  * @param {?proto.transit_realtime.Alert|undefined} value
  * @return {!proto.transit_realtime.FeedEntity} returns this
@@ -1724,7 +1643,6 @@ proto.transit_realtime.FeedEntity.prototype.getAlert = function() {
 proto.transit_realtime.FeedEntity.prototype.setAlert = function(value) {
   return jspb.Message.setWrapperField(this, 5, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -1734,7 +1652,6 @@ proto.transit_realtime.FeedEntity.prototype.clearAlert = function() {
   return this.setAlert(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -1743,16 +1660,12 @@ proto.transit_realtime.FeedEntity.prototype.hasAlert = function() {
   return jspb.Message.getField(this, 5) != null;
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.TripUpdate.repeatedFields_ = [2];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -1770,7 +1683,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TripUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TripUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1802,7 +1714,6 @@ proto.transit_realtime.TripUpdate.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1813,7 +1724,6 @@ proto.transit_realtime.TripUpdate.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.TripUpdate;
   return proto.transit_realtime.TripUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1868,7 +1778,6 @@ proto.transit_realtime.TripUpdate.deserializeBinaryFromReader = function(msg, re
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1878,7 +1787,6 @@ proto.transit_realtime.TripUpdate.prototype.serializeBinary = function() {
   proto.transit_realtime.TripUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1939,10 +1847,6 @@ proto.transit_realtime.TripUpdate.serializeBinaryToWriter = function(message, wr
     proto.transit_realtime.TripUpdate.extensionsBinary, proto.transit_realtime.TripUpdate.prototype.getExtension);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -1959,7 +1863,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TripUpdate.StopTimeEvent.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1987,7 +1890,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.toObject = function(includeInsta
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1998,7 +1900,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.deserializeBinary = function(byt
   var msg = new proto.transit_realtime.TripUpdate.StopTimeEvent;
   return proto.transit_realtime.TripUpdate.StopTimeEvent.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2037,7 +1938,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.deserializeBinaryFromReader = fu
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -2047,7 +1947,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.serializeBinary = func
   proto.transit_realtime.TripUpdate.StopTimeEvent.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2083,7 +1982,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.serializeBinaryToWriter = functi
     proto.transit_realtime.TripUpdate.StopTimeEvent.extensionsBinary, proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.getExtension);
 };
 
-
 /**
  * optional int32 delay = 1;
  * @return {number}
@@ -2091,7 +1989,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.serializeBinaryToWriter = functi
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.getDelay = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
@@ -2101,7 +1998,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.setDelay = function(va
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripUpdate.StopTimeEvent} returns this
@@ -2109,7 +2005,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.setDelay = function(va
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.clearDelay = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -2119,7 +2014,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.hasDelay = function() 
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional int64 time = 2;
  * @return {number}
@@ -2127,7 +2021,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.hasDelay = function() 
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.getTime = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
@@ -2137,7 +2030,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.setTime = function(val
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripUpdate.StopTimeEvent} returns this
@@ -2145,7 +2037,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.setTime = function(val
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.clearTime = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -2155,7 +2046,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.hasTime = function() {
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional int32 uncertainty = 3;
  * @return {number}
@@ -2163,7 +2053,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.hasTime = function() {
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.getUncertainty = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
-
 
 /**
  * @param {number} value
@@ -2173,7 +2062,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.setUncertainty = funct
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripUpdate.StopTimeEvent} returns this
@@ -2182,7 +2070,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.clearUncertainty = fun
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2190,10 +2077,6 @@ proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.clearUncertainty = fun
 proto.transit_realtime.TripUpdate.StopTimeEvent.prototype.hasUncertainty = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -2211,7 +2094,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TripUpdate.StopTimeUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -2241,7 +2123,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.toObject = function(includeInst
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -2252,7 +2133,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.deserializeBinary = function(by
   var msg = new proto.transit_realtime.TripUpdate.StopTimeUpdate;
   return proto.transit_realtime.TripUpdate.StopTimeUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2301,7 +2181,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.deserializeBinaryFromReader = f
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -2311,7 +2190,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.serializeBinary = fun
   proto.transit_realtime.TripUpdate.StopTimeUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2363,7 +2241,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.serializeBinaryToWriter = funct
     proto.transit_realtime.TripUpdate.StopTimeUpdate.extensionsBinary, proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getExtension);
 };
 
-
 /**
  * @enum {number}
  */
@@ -2382,7 +2259,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getStopSequence = fun
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.TripUpdate.StopTimeUpdate} returns this
@@ -2390,7 +2266,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getStopSequence = fun
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.setStopSequence = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -2400,7 +2275,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearStopSequence = f
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2408,7 +2282,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearStopSequence = f
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.hasStopSequence = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional string stop_id = 4;
@@ -2418,7 +2291,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getStopId = function(
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 4, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.TripUpdate.StopTimeUpdate} returns this
@@ -2426,7 +2298,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getStopId = function(
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.setStopId = function(value) {
   return jspb.Message.setField(this, 4, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -2436,7 +2307,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearStopId = functio
   return jspb.Message.setField(this, 4, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2444,7 +2314,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearStopId = functio
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.hasStopId = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
 
 /**
  * optional StopTimeEvent arrival = 2;
@@ -2455,7 +2324,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getArrival = function
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripUpdate.StopTimeEvent, 2));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TripUpdate.StopTimeEvent|undefined} value
  * @return {!proto.transit_realtime.TripUpdate.StopTimeUpdate} returns this
@@ -2463,7 +2331,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getArrival = function
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.setArrival = function(value) {
   return jspb.Message.setWrapperField(this, 2, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -2473,7 +2340,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearArrival = functi
   return this.setArrival(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2481,7 +2347,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearArrival = functi
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.hasArrival = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional StopTimeEvent departure = 3;
@@ -2492,7 +2357,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getDeparture = functi
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripUpdate.StopTimeEvent, 3));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TripUpdate.StopTimeEvent|undefined} value
  * @return {!proto.transit_realtime.TripUpdate.StopTimeUpdate} returns this
@@ -2500,7 +2364,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getDeparture = functi
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.setDeparture = function(value) {
   return jspb.Message.setWrapperField(this, 3, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -2510,7 +2373,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearDeparture = func
   return this.setDeparture(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2518,7 +2380,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearDeparture = func
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.hasDeparture = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * optional ScheduleRelationship schedule_relationship = 5;
@@ -2528,7 +2389,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getScheduleRelationsh
   return /** @type {!proto.transit_realtime.TripUpdate.StopTimeUpdate.ScheduleRelationship} */ (jspb.Message.getFieldWithDefault(this, 5, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.TripUpdate.StopTimeUpdate.ScheduleRelationship} value
  * @return {!proto.transit_realtime.TripUpdate.StopTimeUpdate} returns this
@@ -2536,7 +2396,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.getScheduleRelationsh
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.setScheduleRelationship = function(value) {
   return jspb.Message.setField(this, 5, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -2546,7 +2405,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearScheduleRelation
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2554,10 +2412,6 @@ proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.clearScheduleRelation
 proto.transit_realtime.TripUpdate.StopTimeUpdate.prototype.hasScheduleRelationship = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -2575,7 +2429,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TripUpdate.TripProperties.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TripUpdate.TripProperties.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -2603,7 +2456,6 @@ proto.transit_realtime.TripUpdate.TripProperties.toObject = function(includeInst
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -2614,7 +2466,6 @@ proto.transit_realtime.TripUpdate.TripProperties.deserializeBinary = function(by
   var msg = new proto.transit_realtime.TripUpdate.TripProperties;
   return proto.transit_realtime.TripUpdate.TripProperties.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -2653,7 +2504,6 @@ proto.transit_realtime.TripUpdate.TripProperties.deserializeBinaryFromReader = f
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -2663,7 +2513,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.serializeBinary = fun
   proto.transit_realtime.TripUpdate.TripProperties.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -2699,7 +2548,6 @@ proto.transit_realtime.TripUpdate.TripProperties.serializeBinaryToWriter = funct
     proto.transit_realtime.TripUpdate.TripProperties.extensionsBinary, proto.transit_realtime.TripUpdate.TripProperties.prototype.getExtension);
 };
 
-
 /**
  * optional string trip_id = 1;
  * @return {string}
@@ -2707,7 +2555,6 @@ proto.transit_realtime.TripUpdate.TripProperties.serializeBinaryToWriter = funct
 proto.transit_realtime.TripUpdate.TripProperties.prototype.getTripId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -2717,7 +2564,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.setTripId = function(
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripUpdate.TripProperties} returns this
@@ -2725,7 +2571,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.setTripId = function(
 proto.transit_realtime.TripUpdate.TripProperties.prototype.clearTripId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -2735,7 +2580,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.hasTripId = function(
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string start_date = 2;
  * @return {string}
@@ -2743,7 +2587,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.hasTripId = function(
 proto.transit_realtime.TripUpdate.TripProperties.prototype.getStartDate = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -2753,7 +2596,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.setStartDate = functi
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripUpdate.TripProperties} returns this
@@ -2761,7 +2603,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.setStartDate = functi
 proto.transit_realtime.TripUpdate.TripProperties.prototype.clearStartDate = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -2771,7 +2612,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.hasStartDate = functi
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional string start_time = 3;
  * @return {string}
@@ -2779,7 +2619,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.hasStartDate = functi
 proto.transit_realtime.TripUpdate.TripProperties.prototype.getStartTime = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
 };
-
 
 /**
  * @param {string} value
@@ -2789,7 +2628,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.setStartTime = functi
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripUpdate.TripProperties} returns this
@@ -2798,7 +2636,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.clearStartTime = func
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2806,7 +2643,6 @@ proto.transit_realtime.TripUpdate.TripProperties.prototype.clearStartTime = func
 proto.transit_realtime.TripUpdate.TripProperties.prototype.hasStartTime = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * required TripDescriptor trip = 1;
@@ -2817,7 +2653,6 @@ proto.transit_realtime.TripUpdate.prototype.getTrip = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripDescriptor, 1, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.TripDescriptor} value
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -2825,7 +2660,6 @@ proto.transit_realtime.TripUpdate.prototype.getTrip = function() {
 proto.transit_realtime.TripUpdate.prototype.setTrip = function(value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -2835,7 +2669,6 @@ proto.transit_realtime.TripUpdate.prototype.clearTrip = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2843,7 +2676,6 @@ proto.transit_realtime.TripUpdate.prototype.clearTrip = function() {
 proto.transit_realtime.TripUpdate.prototype.hasTrip = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional VehicleDescriptor vehicle = 3;
@@ -2854,7 +2686,6 @@ proto.transit_realtime.TripUpdate.prototype.getVehicle = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.VehicleDescriptor, 3));
 };
 
-
 /**
  * @param {?proto.transit_realtime.VehicleDescriptor|undefined} value
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -2862,7 +2693,6 @@ proto.transit_realtime.TripUpdate.prototype.getVehicle = function() {
 proto.transit_realtime.TripUpdate.prototype.setVehicle = function(value) {
   return jspb.Message.setWrapperField(this, 3, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -2872,7 +2702,6 @@ proto.transit_realtime.TripUpdate.prototype.clearVehicle = function() {
   return this.setVehicle(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2880,7 +2709,6 @@ proto.transit_realtime.TripUpdate.prototype.clearVehicle = function() {
 proto.transit_realtime.TripUpdate.prototype.hasVehicle = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * repeated StopTimeUpdate stop_time_update = 2;
@@ -2891,7 +2719,6 @@ proto.transit_realtime.TripUpdate.prototype.getStopTimeUpdateList = function() {
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.TripUpdate.StopTimeUpdate, 2));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.TripUpdate.StopTimeUpdate>} value
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -2899,7 +2726,6 @@ proto.transit_realtime.TripUpdate.prototype.getStopTimeUpdateList = function() {
 proto.transit_realtime.TripUpdate.prototype.setStopTimeUpdateList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 2, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.TripUpdate.StopTimeUpdate=} opt_value
@@ -2910,7 +2736,6 @@ proto.transit_realtime.TripUpdate.prototype.addStopTimeUpdate = function(opt_val
   return jspb.Message.addToRepeatedWrapperField(this, 2, opt_value, proto.transit_realtime.TripUpdate.StopTimeUpdate, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -2918,7 +2743,6 @@ proto.transit_realtime.TripUpdate.prototype.addStopTimeUpdate = function(opt_val
 proto.transit_realtime.TripUpdate.prototype.clearStopTimeUpdateList = function() {
   return this.setStopTimeUpdateList([]);
 };
-
 
 /**
  * optional uint64 timestamp = 4;
@@ -2928,7 +2752,6 @@ proto.transit_realtime.TripUpdate.prototype.getTimestamp = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -2936,7 +2759,6 @@ proto.transit_realtime.TripUpdate.prototype.getTimestamp = function() {
 proto.transit_realtime.TripUpdate.prototype.setTimestamp = function(value) {
   return jspb.Message.setField(this, 4, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -2946,7 +2768,6 @@ proto.transit_realtime.TripUpdate.prototype.clearTimestamp = function() {
   return jspb.Message.setField(this, 4, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2954,7 +2775,6 @@ proto.transit_realtime.TripUpdate.prototype.clearTimestamp = function() {
 proto.transit_realtime.TripUpdate.prototype.hasTimestamp = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
 
 /**
  * optional int32 delay = 5;
@@ -2964,7 +2784,6 @@ proto.transit_realtime.TripUpdate.prototype.getDelay = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 5, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -2972,7 +2791,6 @@ proto.transit_realtime.TripUpdate.prototype.getDelay = function() {
 proto.transit_realtime.TripUpdate.prototype.setDelay = function(value) {
   return jspb.Message.setField(this, 5, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -2982,7 +2800,6 @@ proto.transit_realtime.TripUpdate.prototype.clearDelay = function() {
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -2990,7 +2807,6 @@ proto.transit_realtime.TripUpdate.prototype.clearDelay = function() {
 proto.transit_realtime.TripUpdate.prototype.hasDelay = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
 
 /**
  * optional TripProperties trip_properties = 6;
@@ -3001,7 +2817,6 @@ proto.transit_realtime.TripUpdate.prototype.getTripProperties = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripUpdate.TripProperties, 6));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TripUpdate.TripProperties|undefined} value
  * @return {!proto.transit_realtime.TripUpdate} returns this
@@ -3009,7 +2824,6 @@ proto.transit_realtime.TripUpdate.prototype.getTripProperties = function() {
 proto.transit_realtime.TripUpdate.prototype.setTripProperties = function(value) {
   return jspb.Message.setWrapperField(this, 6, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -3019,7 +2833,6 @@ proto.transit_realtime.TripUpdate.prototype.clearTripProperties = function() {
   return this.setTripProperties(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3028,16 +2841,12 @@ proto.transit_realtime.TripUpdate.prototype.hasTripProperties = function() {
   return jspb.Message.getField(this, 6) != null;
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.VehiclePosition.repeatedFields_ = [11];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -3055,7 +2864,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.VehiclePosition.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.VehiclePosition.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -3092,7 +2900,6 @@ proto.transit_realtime.VehiclePosition.toObject = function(includeInstance, msg)
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -3103,7 +2910,6 @@ proto.transit_realtime.VehiclePosition.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.VehiclePosition;
   return proto.transit_realtime.VehiclePosition.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3178,7 +2984,6 @@ proto.transit_realtime.VehiclePosition.deserializeBinaryFromReader = function(ms
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -3188,7 +2993,6 @@ proto.transit_realtime.VehiclePosition.prototype.serializeBinary = function() {
   proto.transit_realtime.VehiclePosition.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3284,7 +3088,6 @@ proto.transit_realtime.VehiclePosition.serializeBinaryToWriter = function(messag
     proto.transit_realtime.VehiclePosition.extensionsBinary, proto.transit_realtime.VehiclePosition.prototype.getExtension);
 };
 
-
 /**
  * @enum {number}
  */
@@ -3320,9 +3123,6 @@ proto.transit_realtime.VehiclePosition.OccupancyStatus = {
   NOT_BOARDABLE: 8
 };
 
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -3339,7 +3139,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.VehiclePosition.CarriageDetails.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -3369,7 +3168,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.toObject = function(inclu
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -3380,7 +3178,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.deserializeBinary = funct
   var msg = new proto.transit_realtime.VehiclePosition.CarriageDetails;
   return proto.transit_realtime.VehiclePosition.CarriageDetails.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -3427,7 +3224,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.deserializeBinaryFromRead
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -3437,7 +3233,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.serializeBinary
   proto.transit_realtime.VehiclePosition.CarriageDetails.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -3487,7 +3282,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.serializeBinaryToWriter =
     proto.transit_realtime.VehiclePosition.CarriageDetails.extensionsBinary, proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.getExtension);
 };
 
-
 /**
  * optional string id = 1;
  * @return {string}
@@ -3495,7 +3289,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.serializeBinaryToWriter =
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.getId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -3505,7 +3298,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setId = functio
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehiclePosition.CarriageDetails} returns this
@@ -3513,7 +3305,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setId = functio
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.clearId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -3523,7 +3314,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasId = functio
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string label = 2;
  * @return {string}
@@ -3531,7 +3321,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasId = functio
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.getLabel = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -3541,7 +3330,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setLabel = func
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehiclePosition.CarriageDetails} returns this
@@ -3549,7 +3337,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setLabel = func
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.clearLabel = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -3559,7 +3346,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasLabel = func
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional OccupancyStatus occupancy_status = 3;
  * @return {!proto.transit_realtime.VehiclePosition.OccupancyStatus}
@@ -3567,7 +3353,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasLabel = func
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.getOccupancyStatus = function() {
   return /** @type {!proto.transit_realtime.VehiclePosition.OccupancyStatus} */ (jspb.Message.getFieldWithDefault(this, 3, 7));
 };
-
 
 /**
  * @param {!proto.transit_realtime.VehiclePosition.OccupancyStatus} value
@@ -3577,7 +3362,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setOccupancySta
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehiclePosition.CarriageDetails} returns this
@@ -3585,7 +3369,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setOccupancySta
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.clearOccupancyStatus = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -3595,7 +3378,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasOccupancySta
   return jspb.Message.getField(this, 3) != null;
 };
 
-
 /**
  * optional int32 occupancy_percentage = 4;
  * @return {number}
@@ -3603,7 +3385,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasOccupancySta
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.getOccupancyPercentage = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 4, -1));
 };
-
 
 /**
  * @param {number} value
@@ -3613,7 +3394,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setOccupancyPer
   return jspb.Message.setField(this, 4, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehiclePosition.CarriageDetails} returns this
@@ -3621,7 +3401,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setOccupancyPer
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.clearOccupancyPercentage = function() {
   return jspb.Message.setField(this, 4, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -3631,7 +3410,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasOccupancyPer
   return jspb.Message.getField(this, 4) != null;
 };
 
-
 /**
  * optional uint32 carriage_sequence = 5;
  * @return {number}
@@ -3639,7 +3417,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasOccupancyPer
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.getCarriageSequence = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 5, 0));
 };
-
 
 /**
  * @param {number} value
@@ -3649,7 +3426,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.setCarriageSequ
   return jspb.Message.setField(this, 5, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehiclePosition.CarriageDetails} returns this
@@ -3658,7 +3434,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.clearCarriageSe
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3666,7 +3441,6 @@ proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.clearCarriageSe
 proto.transit_realtime.VehiclePosition.CarriageDetails.prototype.hasCarriageSequence = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
 
 /**
  * optional TripDescriptor trip = 1;
@@ -3677,7 +3451,6 @@ proto.transit_realtime.VehiclePosition.prototype.getTrip = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripDescriptor, 1));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TripDescriptor|undefined} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3685,7 +3458,6 @@ proto.transit_realtime.VehiclePosition.prototype.getTrip = function() {
 proto.transit_realtime.VehiclePosition.prototype.setTrip = function(value) {
   return jspb.Message.setWrapperField(this, 1, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -3695,7 +3467,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearTrip = function() {
   return this.setTrip(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3703,7 +3474,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearTrip = function() {
 proto.transit_realtime.VehiclePosition.prototype.hasTrip = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional VehicleDescriptor vehicle = 8;
@@ -3714,7 +3484,6 @@ proto.transit_realtime.VehiclePosition.prototype.getVehicle = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.VehicleDescriptor, 8));
 };
 
-
 /**
  * @param {?proto.transit_realtime.VehicleDescriptor|undefined} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3722,7 +3491,6 @@ proto.transit_realtime.VehiclePosition.prototype.getVehicle = function() {
 proto.transit_realtime.VehiclePosition.prototype.setVehicle = function(value) {
   return jspb.Message.setWrapperField(this, 8, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -3732,7 +3500,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearVehicle = function() {
   return this.setVehicle(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3740,7 +3507,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearVehicle = function() {
 proto.transit_realtime.VehiclePosition.prototype.hasVehicle = function() {
   return jspb.Message.getField(this, 8) != null;
 };
-
 
 /**
  * optional Position position = 2;
@@ -3751,7 +3517,6 @@ proto.transit_realtime.VehiclePosition.prototype.getPosition = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.Position, 2));
 };
 
-
 /**
  * @param {?proto.transit_realtime.Position|undefined} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3759,7 +3524,6 @@ proto.transit_realtime.VehiclePosition.prototype.getPosition = function() {
 proto.transit_realtime.VehiclePosition.prototype.setPosition = function(value) {
   return jspb.Message.setWrapperField(this, 2, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -3769,7 +3533,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearPosition = function() {
   return this.setPosition(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3777,7 +3540,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearPosition = function() {
 proto.transit_realtime.VehiclePosition.prototype.hasPosition = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional uint32 current_stop_sequence = 3;
@@ -3787,7 +3549,6 @@ proto.transit_realtime.VehiclePosition.prototype.getCurrentStopSequence = functi
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3795,7 +3556,6 @@ proto.transit_realtime.VehiclePosition.prototype.getCurrentStopSequence = functi
 proto.transit_realtime.VehiclePosition.prototype.setCurrentStopSequence = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -3805,7 +3565,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearCurrentStopSequence = func
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3813,7 +3572,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearCurrentStopSequence = func
 proto.transit_realtime.VehiclePosition.prototype.hasCurrentStopSequence = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * optional string stop_id = 7;
@@ -3823,7 +3581,6 @@ proto.transit_realtime.VehiclePosition.prototype.getStopId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 7, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3831,7 +3588,6 @@ proto.transit_realtime.VehiclePosition.prototype.getStopId = function() {
 proto.transit_realtime.VehiclePosition.prototype.setStopId = function(value) {
   return jspb.Message.setField(this, 7, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -3841,7 +3597,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearStopId = function() {
   return jspb.Message.setField(this, 7, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3849,7 +3604,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearStopId = function() {
 proto.transit_realtime.VehiclePosition.prototype.hasStopId = function() {
   return jspb.Message.getField(this, 7) != null;
 };
-
 
 /**
  * optional VehicleStopStatus current_status = 4;
@@ -3859,7 +3613,6 @@ proto.transit_realtime.VehiclePosition.prototype.getCurrentStatus = function() {
   return /** @type {!proto.transit_realtime.VehiclePosition.VehicleStopStatus} */ (jspb.Message.getFieldWithDefault(this, 4, 2));
 };
 
-
 /**
  * @param {!proto.transit_realtime.VehiclePosition.VehicleStopStatus} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3867,7 +3620,6 @@ proto.transit_realtime.VehiclePosition.prototype.getCurrentStatus = function() {
 proto.transit_realtime.VehiclePosition.prototype.setCurrentStatus = function(value) {
   return jspb.Message.setField(this, 4, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -3877,7 +3629,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearCurrentStatus = function()
   return jspb.Message.setField(this, 4, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3885,7 +3636,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearCurrentStatus = function()
 proto.transit_realtime.VehiclePosition.prototype.hasCurrentStatus = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
 
 /**
  * optional uint64 timestamp = 5;
@@ -3895,7 +3645,6 @@ proto.transit_realtime.VehiclePosition.prototype.getTimestamp = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 5, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3903,7 +3652,6 @@ proto.transit_realtime.VehiclePosition.prototype.getTimestamp = function() {
 proto.transit_realtime.VehiclePosition.prototype.setTimestamp = function(value) {
   return jspb.Message.setField(this, 5, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -3913,7 +3661,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearTimestamp = function() {
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3921,7 +3668,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearTimestamp = function() {
 proto.transit_realtime.VehiclePosition.prototype.hasTimestamp = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
 
 /**
  * optional CongestionLevel congestion_level = 6;
@@ -3931,7 +3677,6 @@ proto.transit_realtime.VehiclePosition.prototype.getCongestionLevel = function()
   return /** @type {!proto.transit_realtime.VehiclePosition.CongestionLevel} */ (jspb.Message.getFieldWithDefault(this, 6, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.VehiclePosition.CongestionLevel} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3939,7 +3684,6 @@ proto.transit_realtime.VehiclePosition.prototype.getCongestionLevel = function()
 proto.transit_realtime.VehiclePosition.prototype.setCongestionLevel = function(value) {
   return jspb.Message.setField(this, 6, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -3949,7 +3693,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearCongestionLevel = function
   return jspb.Message.setField(this, 6, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3957,7 +3700,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearCongestionLevel = function
 proto.transit_realtime.VehiclePosition.prototype.hasCongestionLevel = function() {
   return jspb.Message.getField(this, 6) != null;
 };
-
 
 /**
  * optional OccupancyStatus occupancy_status = 9;
@@ -3967,7 +3709,6 @@ proto.transit_realtime.VehiclePosition.prototype.getOccupancyStatus = function()
   return /** @type {!proto.transit_realtime.VehiclePosition.OccupancyStatus} */ (jspb.Message.getFieldWithDefault(this, 9, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.VehiclePosition.OccupancyStatus} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -3975,7 +3716,6 @@ proto.transit_realtime.VehiclePosition.prototype.getOccupancyStatus = function()
 proto.transit_realtime.VehiclePosition.prototype.setOccupancyStatus = function(value) {
   return jspb.Message.setField(this, 9, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -3985,7 +3725,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearOccupancyStatus = function
   return jspb.Message.setField(this, 9, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -3993,7 +3732,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearOccupancyStatus = function
 proto.transit_realtime.VehiclePosition.prototype.hasOccupancyStatus = function() {
   return jspb.Message.getField(this, 9) != null;
 };
-
 
 /**
  * optional uint32 occupancy_percentage = 10;
@@ -4003,7 +3741,6 @@ proto.transit_realtime.VehiclePosition.prototype.getOccupancyPercentage = functi
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 10, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -4011,7 +3748,6 @@ proto.transit_realtime.VehiclePosition.prototype.getOccupancyPercentage = functi
 proto.transit_realtime.VehiclePosition.prototype.setOccupancyPercentage = function(value) {
   return jspb.Message.setField(this, 10, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -4021,7 +3757,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearOccupancyPercentage = func
   return jspb.Message.setField(this, 10, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4029,7 +3764,6 @@ proto.transit_realtime.VehiclePosition.prototype.clearOccupancyPercentage = func
 proto.transit_realtime.VehiclePosition.prototype.hasOccupancyPercentage = function() {
   return jspb.Message.getField(this, 10) != null;
 };
-
 
 /**
  * repeated CarriageDetails multi_carriage_details = 11;
@@ -4040,7 +3774,6 @@ proto.transit_realtime.VehiclePosition.prototype.getMultiCarriageDetailsList = f
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.VehiclePosition.CarriageDetails, 11));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.VehiclePosition.CarriageDetails>} value
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -4048,7 +3781,6 @@ proto.transit_realtime.VehiclePosition.prototype.getMultiCarriageDetailsList = f
 proto.transit_realtime.VehiclePosition.prototype.setMultiCarriageDetailsList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 11, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.VehiclePosition.CarriageDetails=} opt_value
@@ -4059,7 +3791,6 @@ proto.transit_realtime.VehiclePosition.prototype.addMultiCarriageDetails = funct
   return jspb.Message.addToRepeatedWrapperField(this, 11, opt_value, proto.transit_realtime.VehiclePosition.CarriageDetails, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.VehiclePosition} returns this
@@ -4068,16 +3799,12 @@ proto.transit_realtime.VehiclePosition.prototype.clearMultiCarriageDetailsList =
   return this.setMultiCarriageDetailsList([]);
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.Alert.repeatedFields_ = [1,5];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -4095,7 +3822,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.Alert.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.Alert.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -4132,7 +3858,6 @@ proto.transit_realtime.Alert.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -4143,7 +3868,6 @@ proto.transit_realtime.Alert.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.Alert;
   return proto.transit_realtime.Alert.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -4217,7 +3941,6 @@ proto.transit_realtime.Alert.deserializeBinaryFromReader = function(msg, reader)
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -4227,7 +3950,6 @@ proto.transit_realtime.Alert.prototype.serializeBinary = function() {
   proto.transit_realtime.Alert.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -4319,7 +4041,6 @@ proto.transit_realtime.Alert.serializeBinaryToWriter = function(message, writer)
     proto.transit_realtime.Alert.extensionsBinary, proto.transit_realtime.Alert.prototype.getExtension);
 };
 
-
 /**
  * @enum {number}
  */
@@ -4374,7 +4095,6 @@ proto.transit_realtime.Alert.prototype.getActivePeriodList = function() {
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.TimeRange, 1));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.TimeRange>} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4382,7 +4102,6 @@ proto.transit_realtime.Alert.prototype.getActivePeriodList = function() {
 proto.transit_realtime.Alert.prototype.setActivePeriodList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 1, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.TimeRange=} opt_value
@@ -4393,7 +4112,6 @@ proto.transit_realtime.Alert.prototype.addActivePeriod = function(opt_value, opt
   return jspb.Message.addToRepeatedWrapperField(this, 1, opt_value, proto.transit_realtime.TimeRange, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4401,7 +4119,6 @@ proto.transit_realtime.Alert.prototype.addActivePeriod = function(opt_value, opt
 proto.transit_realtime.Alert.prototype.clearActivePeriodList = function() {
   return this.setActivePeriodList([]);
 };
-
 
 /**
  * repeated EntitySelector informed_entity = 5;
@@ -4412,7 +4129,6 @@ proto.transit_realtime.Alert.prototype.getInformedEntityList = function() {
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.EntitySelector, 5));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.EntitySelector>} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4420,7 +4136,6 @@ proto.transit_realtime.Alert.prototype.getInformedEntityList = function() {
 proto.transit_realtime.Alert.prototype.setInformedEntityList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 5, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.EntitySelector=} opt_value
@@ -4431,7 +4146,6 @@ proto.transit_realtime.Alert.prototype.addInformedEntity = function(opt_value, o
   return jspb.Message.addToRepeatedWrapperField(this, 5, opt_value, proto.transit_realtime.EntitySelector, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4439,7 +4153,6 @@ proto.transit_realtime.Alert.prototype.addInformedEntity = function(opt_value, o
 proto.transit_realtime.Alert.prototype.clearInformedEntityList = function() {
   return this.setInformedEntityList([]);
 };
-
 
 /**
  * optional Cause cause = 6;
@@ -4449,7 +4162,6 @@ proto.transit_realtime.Alert.prototype.getCause = function() {
   return /** @type {!proto.transit_realtime.Alert.Cause} */ (jspb.Message.getFieldWithDefault(this, 6, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.Alert.Cause} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4457,7 +4169,6 @@ proto.transit_realtime.Alert.prototype.getCause = function() {
 proto.transit_realtime.Alert.prototype.setCause = function(value) {
   return jspb.Message.setField(this, 6, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -4467,7 +4178,6 @@ proto.transit_realtime.Alert.prototype.clearCause = function() {
   return jspb.Message.setField(this, 6, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4475,7 +4185,6 @@ proto.transit_realtime.Alert.prototype.clearCause = function() {
 proto.transit_realtime.Alert.prototype.hasCause = function() {
   return jspb.Message.getField(this, 6) != null;
 };
-
 
 /**
  * optional Effect effect = 7;
@@ -4485,7 +4194,6 @@ proto.transit_realtime.Alert.prototype.getEffect = function() {
   return /** @type {!proto.transit_realtime.Alert.Effect} */ (jspb.Message.getFieldWithDefault(this, 7, 8));
 };
 
-
 /**
  * @param {!proto.transit_realtime.Alert.Effect} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4493,7 +4201,6 @@ proto.transit_realtime.Alert.prototype.getEffect = function() {
 proto.transit_realtime.Alert.prototype.setEffect = function(value) {
   return jspb.Message.setField(this, 7, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -4503,7 +4210,6 @@ proto.transit_realtime.Alert.prototype.clearEffect = function() {
   return jspb.Message.setField(this, 7, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4511,7 +4217,6 @@ proto.transit_realtime.Alert.prototype.clearEffect = function() {
 proto.transit_realtime.Alert.prototype.hasEffect = function() {
   return jspb.Message.getField(this, 7) != null;
 };
-
 
 /**
  * optional TranslatedString url = 8;
@@ -4522,7 +4227,6 @@ proto.transit_realtime.Alert.prototype.getUrl = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TranslatedString, 8));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4530,7 +4234,6 @@ proto.transit_realtime.Alert.prototype.getUrl = function() {
 proto.transit_realtime.Alert.prototype.setUrl = function(value) {
   return jspb.Message.setWrapperField(this, 8, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -4540,7 +4243,6 @@ proto.transit_realtime.Alert.prototype.clearUrl = function() {
   return this.setUrl(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4548,7 +4250,6 @@ proto.transit_realtime.Alert.prototype.clearUrl = function() {
 proto.transit_realtime.Alert.prototype.hasUrl = function() {
   return jspb.Message.getField(this, 8) != null;
 };
-
 
 /**
  * optional TranslatedString header_text = 10;
@@ -4559,7 +4260,6 @@ proto.transit_realtime.Alert.prototype.getHeaderText = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TranslatedString, 10));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4567,7 +4267,6 @@ proto.transit_realtime.Alert.prototype.getHeaderText = function() {
 proto.transit_realtime.Alert.prototype.setHeaderText = function(value) {
   return jspb.Message.setWrapperField(this, 10, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -4577,7 +4276,6 @@ proto.transit_realtime.Alert.prototype.clearHeaderText = function() {
   return this.setHeaderText(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4585,7 +4283,6 @@ proto.transit_realtime.Alert.prototype.clearHeaderText = function() {
 proto.transit_realtime.Alert.prototype.hasHeaderText = function() {
   return jspb.Message.getField(this, 10) != null;
 };
-
 
 /**
  * optional TranslatedString description_text = 11;
@@ -4596,7 +4293,6 @@ proto.transit_realtime.Alert.prototype.getDescriptionText = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TranslatedString, 11));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4604,7 +4300,6 @@ proto.transit_realtime.Alert.prototype.getDescriptionText = function() {
 proto.transit_realtime.Alert.prototype.setDescriptionText = function(value) {
   return jspb.Message.setWrapperField(this, 11, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -4614,7 +4309,6 @@ proto.transit_realtime.Alert.prototype.clearDescriptionText = function() {
   return this.setDescriptionText(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4622,7 +4316,6 @@ proto.transit_realtime.Alert.prototype.clearDescriptionText = function() {
 proto.transit_realtime.Alert.prototype.hasDescriptionText = function() {
   return jspb.Message.getField(this, 11) != null;
 };
-
 
 /**
  * optional TranslatedString tts_header_text = 12;
@@ -4633,7 +4326,6 @@ proto.transit_realtime.Alert.prototype.getTtsHeaderText = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TranslatedString, 12));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4641,7 +4333,6 @@ proto.transit_realtime.Alert.prototype.getTtsHeaderText = function() {
 proto.transit_realtime.Alert.prototype.setTtsHeaderText = function(value) {
   return jspb.Message.setWrapperField(this, 12, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -4651,7 +4342,6 @@ proto.transit_realtime.Alert.prototype.clearTtsHeaderText = function() {
   return this.setTtsHeaderText(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4659,7 +4349,6 @@ proto.transit_realtime.Alert.prototype.clearTtsHeaderText = function() {
 proto.transit_realtime.Alert.prototype.hasTtsHeaderText = function() {
   return jspb.Message.getField(this, 12) != null;
 };
-
 
 /**
  * optional TranslatedString tts_description_text = 13;
@@ -4670,7 +4359,6 @@ proto.transit_realtime.Alert.prototype.getTtsDescriptionText = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TranslatedString, 13));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TranslatedString|undefined} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4678,7 +4366,6 @@ proto.transit_realtime.Alert.prototype.getTtsDescriptionText = function() {
 proto.transit_realtime.Alert.prototype.setTtsDescriptionText = function(value) {
   return jspb.Message.setWrapperField(this, 13, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -4688,7 +4375,6 @@ proto.transit_realtime.Alert.prototype.clearTtsDescriptionText = function() {
   return this.setTtsDescriptionText(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4696,7 +4382,6 @@ proto.transit_realtime.Alert.prototype.clearTtsDescriptionText = function() {
 proto.transit_realtime.Alert.prototype.hasTtsDescriptionText = function() {
   return jspb.Message.getField(this, 13) != null;
 };
-
 
 /**
  * optional SeverityLevel severity_level = 14;
@@ -4706,7 +4391,6 @@ proto.transit_realtime.Alert.prototype.getSeverityLevel = function() {
   return /** @type {!proto.transit_realtime.Alert.SeverityLevel} */ (jspb.Message.getFieldWithDefault(this, 14, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.Alert.SeverityLevel} value
  * @return {!proto.transit_realtime.Alert} returns this
@@ -4714,7 +4398,6 @@ proto.transit_realtime.Alert.prototype.getSeverityLevel = function() {
 proto.transit_realtime.Alert.prototype.setSeverityLevel = function(value) {
   return jspb.Message.setField(this, 14, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -4724,7 +4407,6 @@ proto.transit_realtime.Alert.prototype.clearSeverityLevel = function() {
   return jspb.Message.setField(this, 14, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4732,10 +4414,6 @@ proto.transit_realtime.Alert.prototype.clearSeverityLevel = function() {
 proto.transit_realtime.Alert.prototype.hasSeverityLevel = function() {
   return jspb.Message.getField(this, 14) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -4753,7 +4431,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TimeRange.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TimeRange.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -4780,7 +4457,6 @@ proto.transit_realtime.TimeRange.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -4791,7 +4467,6 @@ proto.transit_realtime.TimeRange.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.TimeRange;
   return proto.transit_realtime.TimeRange.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -4826,7 +4501,6 @@ proto.transit_realtime.TimeRange.deserializeBinaryFromReader = function(msg, rea
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -4836,7 +4510,6 @@ proto.transit_realtime.TimeRange.prototype.serializeBinary = function() {
   proto.transit_realtime.TimeRange.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -4865,7 +4538,6 @@ proto.transit_realtime.TimeRange.serializeBinaryToWriter = function(message, wri
     proto.transit_realtime.TimeRange.extensionsBinary, proto.transit_realtime.TimeRange.prototype.getExtension);
 };
 
-
 /**
  * optional uint64 start = 1;
  * @return {number}
@@ -4873,7 +4545,6 @@ proto.transit_realtime.TimeRange.serializeBinaryToWriter = function(message, wri
 proto.transit_realtime.TimeRange.prototype.getStart = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
@@ -4883,7 +4554,6 @@ proto.transit_realtime.TimeRange.prototype.setStart = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TimeRange} returns this
@@ -4891,7 +4561,6 @@ proto.transit_realtime.TimeRange.prototype.setStart = function(value) {
 proto.transit_realtime.TimeRange.prototype.clearStart = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -4901,7 +4570,6 @@ proto.transit_realtime.TimeRange.prototype.hasStart = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional uint64 end = 2;
  * @return {number}
@@ -4909,7 +4577,6 @@ proto.transit_realtime.TimeRange.prototype.hasStart = function() {
 proto.transit_realtime.TimeRange.prototype.getEnd = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
@@ -4919,7 +4586,6 @@ proto.transit_realtime.TimeRange.prototype.setEnd = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TimeRange} returns this
@@ -4928,7 +4594,6 @@ proto.transit_realtime.TimeRange.prototype.clearEnd = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -4936,10 +4601,6 @@ proto.transit_realtime.TimeRange.prototype.clearEnd = function() {
 proto.transit_realtime.TimeRange.prototype.hasEnd = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -4957,7 +4618,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.Position.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.Position.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -4987,7 +4647,6 @@ proto.transit_realtime.Position.toObject = function(includeInstance, msg) {
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -4998,7 +4657,6 @@ proto.transit_realtime.Position.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.Position;
   return proto.transit_realtime.Position.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -5045,7 +4703,6 @@ proto.transit_realtime.Position.deserializeBinaryFromReader = function(msg, read
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -5055,7 +4712,6 @@ proto.transit_realtime.Position.prototype.serializeBinary = function() {
   proto.transit_realtime.Position.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -5105,7 +4761,6 @@ proto.transit_realtime.Position.serializeBinaryToWriter = function(message, writ
     proto.transit_realtime.Position.extensionsBinary, proto.transit_realtime.Position.prototype.getExtension);
 };
 
-
 /**
  * required float latitude = 1;
  * @return {number}
@@ -5113,7 +4768,6 @@ proto.transit_realtime.Position.serializeBinaryToWriter = function(message, writ
 proto.transit_realtime.Position.prototype.getLatitude = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 1, 0.0));
 };
-
 
 /**
  * @param {number} value
@@ -5123,7 +4777,6 @@ proto.transit_realtime.Position.prototype.setLatitude = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.Position} returns this
@@ -5131,7 +4784,6 @@ proto.transit_realtime.Position.prototype.setLatitude = function(value) {
 proto.transit_realtime.Position.prototype.clearLatitude = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -5141,7 +4793,6 @@ proto.transit_realtime.Position.prototype.hasLatitude = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * required float longitude = 2;
  * @return {number}
@@ -5149,7 +4800,6 @@ proto.transit_realtime.Position.prototype.hasLatitude = function() {
 proto.transit_realtime.Position.prototype.getLongitude = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 2, 0.0));
 };
-
 
 /**
  * @param {number} value
@@ -5159,7 +4809,6 @@ proto.transit_realtime.Position.prototype.setLongitude = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.Position} returns this
@@ -5167,7 +4816,6 @@ proto.transit_realtime.Position.prototype.setLongitude = function(value) {
 proto.transit_realtime.Position.prototype.clearLongitude = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -5177,7 +4825,6 @@ proto.transit_realtime.Position.prototype.hasLongitude = function() {
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional float bearing = 3;
  * @return {number}
@@ -5185,7 +4832,6 @@ proto.transit_realtime.Position.prototype.hasLongitude = function() {
 proto.transit_realtime.Position.prototype.getBearing = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 3, 0.0));
 };
-
 
 /**
  * @param {number} value
@@ -5195,7 +4841,6 @@ proto.transit_realtime.Position.prototype.setBearing = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.Position} returns this
@@ -5203,7 +4848,6 @@ proto.transit_realtime.Position.prototype.setBearing = function(value) {
 proto.transit_realtime.Position.prototype.clearBearing = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -5213,7 +4857,6 @@ proto.transit_realtime.Position.prototype.hasBearing = function() {
   return jspb.Message.getField(this, 3) != null;
 };
 
-
 /**
  * optional double odometer = 4;
  * @return {number}
@@ -5221,7 +4864,6 @@ proto.transit_realtime.Position.prototype.hasBearing = function() {
 proto.transit_realtime.Position.prototype.getOdometer = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 4, 0.0));
 };
-
 
 /**
  * @param {number} value
@@ -5231,7 +4873,6 @@ proto.transit_realtime.Position.prototype.setOdometer = function(value) {
   return jspb.Message.setField(this, 4, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.Position} returns this
@@ -5239,7 +4880,6 @@ proto.transit_realtime.Position.prototype.setOdometer = function(value) {
 proto.transit_realtime.Position.prototype.clearOdometer = function() {
   return jspb.Message.setField(this, 4, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -5249,7 +4889,6 @@ proto.transit_realtime.Position.prototype.hasOdometer = function() {
   return jspb.Message.getField(this, 4) != null;
 };
 
-
 /**
  * optional float speed = 5;
  * @return {number}
@@ -5257,7 +4896,6 @@ proto.transit_realtime.Position.prototype.hasOdometer = function() {
 proto.transit_realtime.Position.prototype.getSpeed = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 5, 0.0));
 };
-
 
 /**
  * @param {number} value
@@ -5267,7 +4905,6 @@ proto.transit_realtime.Position.prototype.setSpeed = function(value) {
   return jspb.Message.setField(this, 5, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.Position} returns this
@@ -5276,7 +4913,6 @@ proto.transit_realtime.Position.prototype.clearSpeed = function() {
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5284,10 +4920,6 @@ proto.transit_realtime.Position.prototype.clearSpeed = function() {
 proto.transit_realtime.Position.prototype.hasSpeed = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -5305,7 +4937,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TripDescriptor.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TripDescriptor.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -5336,7 +4967,6 @@ proto.transit_realtime.TripDescriptor.toObject = function(includeInstance, msg) 
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -5347,7 +4977,6 @@ proto.transit_realtime.TripDescriptor.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.TripDescriptor;
   return proto.transit_realtime.TripDescriptor.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -5398,7 +5027,6 @@ proto.transit_realtime.TripDescriptor.deserializeBinaryFromReader = function(msg
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -5408,7 +5036,6 @@ proto.transit_realtime.TripDescriptor.prototype.serializeBinary = function() {
   proto.transit_realtime.TripDescriptor.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -5465,7 +5092,6 @@ proto.transit_realtime.TripDescriptor.serializeBinaryToWriter = function(message
     proto.transit_realtime.TripDescriptor.extensionsBinary, proto.transit_realtime.TripDescriptor.prototype.getExtension);
 };
 
-
 /**
  * @enum {number}
  */
@@ -5486,7 +5112,6 @@ proto.transit_realtime.TripDescriptor.prototype.getTripId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.TripDescriptor} returns this
@@ -5494,7 +5119,6 @@ proto.transit_realtime.TripDescriptor.prototype.getTripId = function() {
 proto.transit_realtime.TripDescriptor.prototype.setTripId = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -5504,7 +5128,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearTripId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5512,7 +5135,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearTripId = function() {
 proto.transit_realtime.TripDescriptor.prototype.hasTripId = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional string route_id = 5;
@@ -5522,7 +5144,6 @@ proto.transit_realtime.TripDescriptor.prototype.getRouteId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 5, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.TripDescriptor} returns this
@@ -5530,7 +5151,6 @@ proto.transit_realtime.TripDescriptor.prototype.getRouteId = function() {
 proto.transit_realtime.TripDescriptor.prototype.setRouteId = function(value) {
   return jspb.Message.setField(this, 5, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -5540,7 +5160,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearRouteId = function() {
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5548,7 +5167,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearRouteId = function() {
 proto.transit_realtime.TripDescriptor.prototype.hasRouteId = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
 
 /**
  * optional uint32 direction_id = 6;
@@ -5558,7 +5176,6 @@ proto.transit_realtime.TripDescriptor.prototype.getDirectionId = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 6, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.TripDescriptor} returns this
@@ -5566,7 +5183,6 @@ proto.transit_realtime.TripDescriptor.prototype.getDirectionId = function() {
 proto.transit_realtime.TripDescriptor.prototype.setDirectionId = function(value) {
   return jspb.Message.setField(this, 6, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -5576,7 +5192,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearDirectionId = function() {
   return jspb.Message.setField(this, 6, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5584,7 +5199,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearDirectionId = function() {
 proto.transit_realtime.TripDescriptor.prototype.hasDirectionId = function() {
   return jspb.Message.getField(this, 6) != null;
 };
-
 
 /**
  * optional string start_time = 2;
@@ -5594,7 +5208,6 @@ proto.transit_realtime.TripDescriptor.prototype.getStartTime = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.TripDescriptor} returns this
@@ -5602,7 +5215,6 @@ proto.transit_realtime.TripDescriptor.prototype.getStartTime = function() {
 proto.transit_realtime.TripDescriptor.prototype.setStartTime = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -5612,7 +5224,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearStartTime = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5620,7 +5231,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearStartTime = function() {
 proto.transit_realtime.TripDescriptor.prototype.hasStartTime = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional string start_date = 3;
@@ -5630,7 +5240,6 @@ proto.transit_realtime.TripDescriptor.prototype.getStartDate = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.TripDescriptor} returns this
@@ -5638,7 +5247,6 @@ proto.transit_realtime.TripDescriptor.prototype.getStartDate = function() {
 proto.transit_realtime.TripDescriptor.prototype.setStartDate = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -5648,7 +5256,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearStartDate = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5656,7 +5263,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearStartDate = function() {
 proto.transit_realtime.TripDescriptor.prototype.hasStartDate = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * optional ScheduleRelationship schedule_relationship = 4;
@@ -5666,7 +5272,6 @@ proto.transit_realtime.TripDescriptor.prototype.getScheduleRelationship = functi
   return /** @type {!proto.transit_realtime.TripDescriptor.ScheduleRelationship} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.TripDescriptor.ScheduleRelationship} value
  * @return {!proto.transit_realtime.TripDescriptor} returns this
@@ -5674,7 +5279,6 @@ proto.transit_realtime.TripDescriptor.prototype.getScheduleRelationship = functi
 proto.transit_realtime.TripDescriptor.prototype.setScheduleRelationship = function(value) {
   return jspb.Message.setField(this, 4, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -5684,7 +5288,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearScheduleRelationship = func
   return jspb.Message.setField(this, 4, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5692,10 +5295,6 @@ proto.transit_realtime.TripDescriptor.prototype.clearScheduleRelationship = func
 proto.transit_realtime.TripDescriptor.prototype.hasScheduleRelationship = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -5713,7 +5312,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.VehicleDescriptor.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.VehicleDescriptor.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -5741,7 +5339,6 @@ proto.transit_realtime.VehicleDescriptor.toObject = function(includeInstance, ms
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -5752,7 +5349,6 @@ proto.transit_realtime.VehicleDescriptor.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.VehicleDescriptor;
   return proto.transit_realtime.VehicleDescriptor.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -5791,7 +5387,6 @@ proto.transit_realtime.VehicleDescriptor.deserializeBinaryFromReader = function(
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -5801,7 +5396,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.serializeBinary = function() 
   proto.transit_realtime.VehicleDescriptor.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -5837,7 +5431,6 @@ proto.transit_realtime.VehicleDescriptor.serializeBinaryToWriter = function(mess
     proto.transit_realtime.VehicleDescriptor.extensionsBinary, proto.transit_realtime.VehicleDescriptor.prototype.getExtension);
 };
 
-
 /**
  * optional string id = 1;
  * @return {string}
@@ -5845,7 +5438,6 @@ proto.transit_realtime.VehicleDescriptor.serializeBinaryToWriter = function(mess
 proto.transit_realtime.VehicleDescriptor.prototype.getId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -5855,7 +5447,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.setId = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehicleDescriptor} returns this
@@ -5863,7 +5454,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.setId = function(value) {
 proto.transit_realtime.VehicleDescriptor.prototype.clearId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -5873,7 +5463,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.hasId = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string label = 2;
  * @return {string}
@@ -5881,7 +5470,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.hasId = function() {
 proto.transit_realtime.VehicleDescriptor.prototype.getLabel = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -5891,7 +5479,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.setLabel = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehicleDescriptor} returns this
@@ -5899,7 +5486,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.setLabel = function(value) {
 proto.transit_realtime.VehicleDescriptor.prototype.clearLabel = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -5909,7 +5495,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.hasLabel = function() {
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional string license_plate = 3;
  * @return {string}
@@ -5917,7 +5502,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.hasLabel = function() {
 proto.transit_realtime.VehicleDescriptor.prototype.getLicensePlate = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
 };
-
 
 /**
  * @param {string} value
@@ -5927,7 +5511,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.setLicensePlate = function(va
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.VehicleDescriptor} returns this
@@ -5936,7 +5519,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.clearLicensePlate = function(
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -5944,10 +5526,6 @@ proto.transit_realtime.VehicleDescriptor.prototype.clearLicensePlate = function(
 proto.transit_realtime.VehicleDescriptor.prototype.hasLicensePlate = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -5965,7 +5543,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.EntitySelector.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.EntitySelector.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -5996,7 +5573,6 @@ proto.transit_realtime.EntitySelector.toObject = function(includeInstance, msg) 
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -6007,7 +5583,6 @@ proto.transit_realtime.EntitySelector.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.EntitySelector;
   return proto.transit_realtime.EntitySelector.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -6059,7 +5634,6 @@ proto.transit_realtime.EntitySelector.deserializeBinaryFromReader = function(msg
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -6069,7 +5643,6 @@ proto.transit_realtime.EntitySelector.prototype.serializeBinary = function() {
   proto.transit_realtime.EntitySelector.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -6127,7 +5700,6 @@ proto.transit_realtime.EntitySelector.serializeBinaryToWriter = function(message
     proto.transit_realtime.EntitySelector.extensionsBinary, proto.transit_realtime.EntitySelector.prototype.getExtension);
 };
 
-
 /**
  * optional string agency_id = 1;
  * @return {string}
@@ -6135,7 +5707,6 @@ proto.transit_realtime.EntitySelector.serializeBinaryToWriter = function(message
 proto.transit_realtime.EntitySelector.prototype.getAgencyId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -6145,7 +5716,6 @@ proto.transit_realtime.EntitySelector.prototype.setAgencyId = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.EntitySelector} returns this
@@ -6153,7 +5723,6 @@ proto.transit_realtime.EntitySelector.prototype.setAgencyId = function(value) {
 proto.transit_realtime.EntitySelector.prototype.clearAgencyId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -6163,7 +5732,6 @@ proto.transit_realtime.EntitySelector.prototype.hasAgencyId = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string route_id = 2;
  * @return {string}
@@ -6171,7 +5739,6 @@ proto.transit_realtime.EntitySelector.prototype.hasAgencyId = function() {
 proto.transit_realtime.EntitySelector.prototype.getRouteId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -6181,7 +5748,6 @@ proto.transit_realtime.EntitySelector.prototype.setRouteId = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.EntitySelector} returns this
@@ -6189,7 +5755,6 @@ proto.transit_realtime.EntitySelector.prototype.setRouteId = function(value) {
 proto.transit_realtime.EntitySelector.prototype.clearRouteId = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -6199,7 +5764,6 @@ proto.transit_realtime.EntitySelector.prototype.hasRouteId = function() {
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional int32 route_type = 3;
  * @return {number}
@@ -6207,7 +5771,6 @@ proto.transit_realtime.EntitySelector.prototype.hasRouteId = function() {
 proto.transit_realtime.EntitySelector.prototype.getRouteType = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
-
 
 /**
  * @param {number} value
@@ -6217,7 +5780,6 @@ proto.transit_realtime.EntitySelector.prototype.setRouteType = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.EntitySelector} returns this
@@ -6226,7 +5788,6 @@ proto.transit_realtime.EntitySelector.prototype.clearRouteType = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -6234,7 +5795,6 @@ proto.transit_realtime.EntitySelector.prototype.clearRouteType = function() {
 proto.transit_realtime.EntitySelector.prototype.hasRouteType = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * optional TripDescriptor trip = 4;
@@ -6245,7 +5805,6 @@ proto.transit_realtime.EntitySelector.prototype.getTrip = function() {
     jspb.Message.getWrapperField(this, proto.transit_realtime.TripDescriptor, 4));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TripDescriptor|undefined} value
  * @return {!proto.transit_realtime.EntitySelector} returns this
@@ -6253,7 +5812,6 @@ proto.transit_realtime.EntitySelector.prototype.getTrip = function() {
 proto.transit_realtime.EntitySelector.prototype.setTrip = function(value) {
   return jspb.Message.setWrapperField(this, 4, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -6263,7 +5821,6 @@ proto.transit_realtime.EntitySelector.prototype.clearTrip = function() {
   return this.setTrip(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -6271,7 +5828,6 @@ proto.transit_realtime.EntitySelector.prototype.clearTrip = function() {
 proto.transit_realtime.EntitySelector.prototype.hasTrip = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
 
 /**
  * optional string stop_id = 5;
@@ -6281,7 +5837,6 @@ proto.transit_realtime.EntitySelector.prototype.getStopId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 5, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.EntitySelector} returns this
@@ -6289,7 +5844,6 @@ proto.transit_realtime.EntitySelector.prototype.getStopId = function() {
 proto.transit_realtime.EntitySelector.prototype.setStopId = function(value) {
   return jspb.Message.setField(this, 5, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -6299,7 +5853,6 @@ proto.transit_realtime.EntitySelector.prototype.clearStopId = function() {
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -6307,7 +5860,6 @@ proto.transit_realtime.EntitySelector.prototype.clearStopId = function() {
 proto.transit_realtime.EntitySelector.prototype.hasStopId = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
 
 /**
  * optional uint32 direction_id = 6;
@@ -6317,7 +5869,6 @@ proto.transit_realtime.EntitySelector.prototype.getDirectionId = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 6, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.EntitySelector} returns this
@@ -6325,7 +5876,6 @@ proto.transit_realtime.EntitySelector.prototype.getDirectionId = function() {
 proto.transit_realtime.EntitySelector.prototype.setDirectionId = function(value) {
   return jspb.Message.setField(this, 6, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -6335,7 +5885,6 @@ proto.transit_realtime.EntitySelector.prototype.clearDirectionId = function() {
   return jspb.Message.setField(this, 6, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -6344,16 +5893,12 @@ proto.transit_realtime.EntitySelector.prototype.hasDirectionId = function() {
   return jspb.Message.getField(this, 6) != null;
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.TranslatedString.repeatedFields_ = [1];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -6371,7 +5916,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TranslatedString.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TranslatedString.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -6398,7 +5942,6 @@ proto.transit_realtime.TranslatedString.toObject = function(includeInstance, msg
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -6409,7 +5952,6 @@ proto.transit_realtime.TranslatedString.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.TranslatedString;
   return proto.transit_realtime.TranslatedString.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -6441,7 +5983,6 @@ proto.transit_realtime.TranslatedString.deserializeBinaryFromReader = function(m
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -6451,7 +5992,6 @@ proto.transit_realtime.TranslatedString.prototype.serializeBinary = function() {
   proto.transit_realtime.TranslatedString.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -6474,10 +6014,6 @@ proto.transit_realtime.TranslatedString.serializeBinaryToWriter = function(messa
     proto.transit_realtime.TranslatedString.extensionsBinary, proto.transit_realtime.TranslatedString.prototype.getExtension);
 };
 
-
-
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -6494,7 +6030,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TranslatedString.Translation.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TranslatedString.Translation.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -6521,7 +6056,6 @@ proto.transit_realtime.TranslatedString.Translation.toObject = function(includeI
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -6532,7 +6066,6 @@ proto.transit_realtime.TranslatedString.Translation.deserializeBinary = function
   var msg = new proto.transit_realtime.TranslatedString.Translation;
   return proto.transit_realtime.TranslatedString.Translation.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -6567,7 +6100,6 @@ proto.transit_realtime.TranslatedString.Translation.deserializeBinaryFromReader 
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -6577,7 +6109,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.serializeBinary = 
   proto.transit_realtime.TranslatedString.Translation.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -6606,7 +6137,6 @@ proto.transit_realtime.TranslatedString.Translation.serializeBinaryToWriter = fu
     proto.transit_realtime.TranslatedString.Translation.extensionsBinary, proto.transit_realtime.TranslatedString.Translation.prototype.getExtension);
 };
 
-
 /**
  * required string text = 1;
  * @return {string}
@@ -6614,7 +6144,6 @@ proto.transit_realtime.TranslatedString.Translation.serializeBinaryToWriter = fu
 proto.transit_realtime.TranslatedString.Translation.prototype.getText = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -6624,7 +6153,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.setText = function
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TranslatedString.Translation} returns this
@@ -6632,7 +6160,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.setText = function
 proto.transit_realtime.TranslatedString.Translation.prototype.clearText = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -6642,7 +6169,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.hasText = function
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string language = 2;
  * @return {string}
@@ -6650,7 +6176,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.hasText = function
 proto.transit_realtime.TranslatedString.Translation.prototype.getLanguage = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -6660,7 +6185,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.setLanguage = func
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TranslatedString.Translation} returns this
@@ -6669,7 +6193,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.clearLanguage = fu
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -6677,7 +6200,6 @@ proto.transit_realtime.TranslatedString.Translation.prototype.clearLanguage = fu
 proto.transit_realtime.TranslatedString.Translation.prototype.hasLanguage = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * repeated Translation translation = 1;
@@ -6688,7 +6210,6 @@ proto.transit_realtime.TranslatedString.prototype.getTranslationList = function(
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.TranslatedString.Translation, 1));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.TranslatedString.Translation>} value
  * @return {!proto.transit_realtime.TranslatedString} returns this
@@ -6696,7 +6217,6 @@ proto.transit_realtime.TranslatedString.prototype.getTranslationList = function(
 proto.transit_realtime.TranslatedString.prototype.setTranslationList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 1, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.TranslatedString.Translation=} opt_value
@@ -6707,7 +6227,6 @@ proto.transit_realtime.TranslatedString.prototype.addTranslation = function(opt_
   return jspb.Message.addToRepeatedWrapperField(this, 1, opt_value, proto.transit_realtime.TranslatedString.Translation, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.TranslatedString} returns this
@@ -6715,6 +6234,5 @@ proto.transit_realtime.TranslatedString.prototype.addTranslation = function(opt_
 proto.transit_realtime.TranslatedString.prototype.clearTranslationList = function() {
   return this.setTranslationList([]);
 };
-
 
 goog.object.extend(exports, proto);

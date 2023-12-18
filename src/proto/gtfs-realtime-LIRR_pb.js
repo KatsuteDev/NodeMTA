@@ -40,8 +40,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.MtaStopTimeUpdate.displayName = 'proto.transit_realtime.MtaStopTimeUpdate';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -58,7 +56,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MtaStopTimeUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MtaStopTimeUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -81,7 +78,6 @@ proto.transit_realtime.MtaStopTimeUpdate.toObject = function(includeInstance, ms
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -92,7 +88,6 @@ proto.transit_realtime.MtaStopTimeUpdate.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.MtaStopTimeUpdate;
   return proto.transit_realtime.MtaStopTimeUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -116,7 +111,6 @@ proto.transit_realtime.MtaStopTimeUpdate.deserializeBinaryFromReader = function(
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -126,7 +120,6 @@ proto.transit_realtime.MtaStopTimeUpdate.prototype.serializeBinary = function() 
   proto.transit_realtime.MtaStopTimeUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -138,8 +131,6 @@ proto.transit_realtime.MtaStopTimeUpdate.prototype.serializeBinary = function() 
 proto.transit_realtime.MtaStopTimeUpdate.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
@@ -164,7 +155,6 @@ gtfs$realtime_pb.TripUpdate.StopTimeUpdate.extensionsBinary[1005] = new jspb.Ext
 // This registers the extension field with the extended class, so that
 // toObject() will function correctly.
 gtfs$realtime_pb.TripUpdate.StopTimeUpdate.extensions[1005] = proto.transit_realtime.MtaStopTimeUpdate.track;
-
 
 /**
  * A tuple of {field number, class constructor} for the extension

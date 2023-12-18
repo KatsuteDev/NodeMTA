@@ -41,8 +41,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.CrowdingDescriptor.displayName = 'proto.transit_realtime.CrowdingDescriptor';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -59,7 +57,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.CrowdingDescriptor.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.CrowdingDescriptor.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -83,7 +80,6 @@ proto.transit_realtime.CrowdingDescriptor.toObject = function(includeInstance, m
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -94,7 +90,6 @@ proto.transit_realtime.CrowdingDescriptor.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.CrowdingDescriptor;
   return proto.transit_realtime.CrowdingDescriptor.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -126,7 +121,6 @@ proto.transit_realtime.CrowdingDescriptor.deserializeBinaryFromReader = function
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -136,7 +130,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.serializeBinary = function()
   proto.transit_realtime.CrowdingDescriptor.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -163,7 +156,6 @@ proto.transit_realtime.CrowdingDescriptor.serializeBinaryToWriter = function(mes
   }
 };
 
-
 /**
  * optional int32 estimated_count = 1;
  * @return {number}
@@ -171,7 +163,6 @@ proto.transit_realtime.CrowdingDescriptor.serializeBinaryToWriter = function(mes
 proto.transit_realtime.CrowdingDescriptor.prototype.getEstimatedCount = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
@@ -181,7 +172,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.setEstimatedCount = function
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.CrowdingDescriptor} returns this
@@ -189,7 +179,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.setEstimatedCount = function
 proto.transit_realtime.CrowdingDescriptor.prototype.clearEstimatedCount = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -199,7 +188,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.hasEstimatedCount = function
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional int32 estimated_capacity = 2;
  * @return {number}
@@ -207,7 +195,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.hasEstimatedCount = function
 proto.transit_realtime.CrowdingDescriptor.prototype.getEstimatedCapacity = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
@@ -217,7 +204,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.setEstimatedCapacity = funct
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.CrowdingDescriptor} returns this
@@ -226,7 +212,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.clearEstimatedCapacity = fun
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -234,8 +219,6 @@ proto.transit_realtime.CrowdingDescriptor.prototype.clearEstimatedCapacity = fun
 proto.transit_realtime.CrowdingDescriptor.prototype.hasEstimatedCapacity = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension

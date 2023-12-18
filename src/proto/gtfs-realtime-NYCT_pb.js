@@ -110,8 +110,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.NyctStopTimeUpdate.displayName = 'proto.transit_realtime.NyctStopTimeUpdate';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -128,7 +126,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.TripReplacementPeriod.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.TripReplacementPeriod.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -152,7 +149,6 @@ proto.transit_realtime.TripReplacementPeriod.toObject = function(includeInstance
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -163,7 +159,6 @@ proto.transit_realtime.TripReplacementPeriod.deserializeBinary = function(bytes)
   var msg = new proto.transit_realtime.TripReplacementPeriod;
   return proto.transit_realtime.TripReplacementPeriod.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -196,7 +191,6 @@ proto.transit_realtime.TripReplacementPeriod.deserializeBinaryFromReader = funct
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -206,7 +200,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.serializeBinary = functio
   proto.transit_realtime.TripReplacementPeriod.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -234,7 +227,6 @@ proto.transit_realtime.TripReplacementPeriod.serializeBinaryToWriter = function(
   }
 };
 
-
 /**
  * optional string route_id = 1;
  * @return {string}
@@ -242,7 +234,6 @@ proto.transit_realtime.TripReplacementPeriod.serializeBinaryToWriter = function(
 proto.transit_realtime.TripReplacementPeriod.prototype.getRouteId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -252,7 +243,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.setRouteId = function(val
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.TripReplacementPeriod} returns this
@@ -261,7 +251,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.clearRouteId = function()
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -269,7 +258,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.clearRouteId = function()
 proto.transit_realtime.TripReplacementPeriod.prototype.hasRouteId = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional TimeRange replacement_period = 2;
@@ -280,7 +268,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.getReplacementPeriod = fu
     jspb.Message.getWrapperField(this, gtfs$realtime_pb.TimeRange, 2));
 };
 
-
 /**
  * @param {?proto.transit_realtime.TimeRange|undefined} value
  * @return {!proto.transit_realtime.TripReplacementPeriod} returns this
@@ -288,7 +275,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.getReplacementPeriod = fu
 proto.transit_realtime.TripReplacementPeriod.prototype.setReplacementPeriod = function(value) {
   return jspb.Message.setWrapperField(this, 2, value);
 };
-
 
 /**
  * Clears the message field making it undefined.
@@ -298,7 +284,6 @@ proto.transit_realtime.TripReplacementPeriod.prototype.clearReplacementPeriod = 
   return this.setReplacementPeriod(undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -307,16 +292,12 @@ proto.transit_realtime.TripReplacementPeriod.prototype.hasReplacementPeriod = fu
   return jspb.Message.getField(this, 2) != null;
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.NyctFeedHeader.repeatedFields_ = [2];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -334,7 +315,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.NyctFeedHeader.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.NyctFeedHeader.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -359,7 +339,6 @@ proto.transit_realtime.NyctFeedHeader.toObject = function(includeInstance, msg) 
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -370,7 +349,6 @@ proto.transit_realtime.NyctFeedHeader.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.NyctFeedHeader;
   return proto.transit_realtime.NyctFeedHeader.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -403,7 +381,6 @@ proto.transit_realtime.NyctFeedHeader.deserializeBinaryFromReader = function(msg
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -413,7 +390,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.serializeBinary = function() {
   proto.transit_realtime.NyctFeedHeader.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -441,7 +417,6 @@ proto.transit_realtime.NyctFeedHeader.serializeBinaryToWriter = function(message
   }
 };
 
-
 /**
  * required string nyct_subway_version = 1;
  * @return {string}
@@ -449,7 +424,6 @@ proto.transit_realtime.NyctFeedHeader.serializeBinaryToWriter = function(message
 proto.transit_realtime.NyctFeedHeader.prototype.getNyctSubwayVersion = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -459,7 +433,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.setNyctSubwayVersion = function(
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.NyctFeedHeader} returns this
@@ -468,7 +441,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.clearNyctSubwayVersion = functio
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -476,7 +448,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.clearNyctSubwayVersion = functio
 proto.transit_realtime.NyctFeedHeader.prototype.hasNyctSubwayVersion = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * repeated TripReplacementPeriod trip_replacement_period = 2;
@@ -487,7 +458,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.getTripReplacementPeriodList = f
     jspb.Message.getRepeatedWrapperField(this, proto.transit_realtime.TripReplacementPeriod, 2));
 };
 
-
 /**
  * @param {!Array<!proto.transit_realtime.TripReplacementPeriod>} value
  * @return {!proto.transit_realtime.NyctFeedHeader} returns this
@@ -495,7 +465,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.getTripReplacementPeriodList = f
 proto.transit_realtime.NyctFeedHeader.prototype.setTripReplacementPeriodList = function(value) {
   return jspb.Message.setRepeatedWrapperField(this, 2, value);
 };
-
 
 /**
  * @param {!proto.transit_realtime.TripReplacementPeriod=} opt_value
@@ -506,7 +475,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.addTripReplacementPeriod = funct
   return jspb.Message.addToRepeatedWrapperField(this, 2, opt_value, proto.transit_realtime.TripReplacementPeriod, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.NyctFeedHeader} returns this
@@ -514,10 +482,6 @@ proto.transit_realtime.NyctFeedHeader.prototype.addTripReplacementPeriod = funct
 proto.transit_realtime.NyctFeedHeader.prototype.clearTripReplacementPeriodList = function() {
   return this.setTripReplacementPeriodList([]);
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -535,7 +499,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.NyctTripDescriptor.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.NyctTripDescriptor.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -560,7 +523,6 @@ proto.transit_realtime.NyctTripDescriptor.toObject = function(includeInstance, m
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -571,7 +533,6 @@ proto.transit_realtime.NyctTripDescriptor.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.NyctTripDescriptor;
   return proto.transit_realtime.NyctTripDescriptor.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -607,7 +568,6 @@ proto.transit_realtime.NyctTripDescriptor.deserializeBinaryFromReader = function
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -617,7 +577,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.serializeBinary = function()
   proto.transit_realtime.NyctTripDescriptor.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -651,7 +610,6 @@ proto.transit_realtime.NyctTripDescriptor.serializeBinaryToWriter = function(mes
   }
 };
 
-
 /**
  * @enum {number}
  */
@@ -670,7 +628,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.getTrainId = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.NyctTripDescriptor} returns this
@@ -678,7 +635,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.getTrainId = function() {
 proto.transit_realtime.NyctTripDescriptor.prototype.setTrainId = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -688,7 +644,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.clearTrainId = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -696,7 +651,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.clearTrainId = function() {
 proto.transit_realtime.NyctTripDescriptor.prototype.hasTrainId = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional bool is_assigned = 2;
@@ -706,7 +660,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.getIsAssigned = function() {
   return /** @type {boolean} */ (jspb.Message.getBooleanFieldWithDefault(this, 2, false));
 };
 
-
 /**
  * @param {boolean} value
  * @return {!proto.transit_realtime.NyctTripDescriptor} returns this
@@ -714,7 +667,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.getIsAssigned = function() {
 proto.transit_realtime.NyctTripDescriptor.prototype.setIsAssigned = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -724,7 +676,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.clearIsAssigned = function()
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -732,7 +683,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.clearIsAssigned = function()
 proto.transit_realtime.NyctTripDescriptor.prototype.hasIsAssigned = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional Direction direction = 3;
@@ -742,7 +692,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.getDirection = function() {
   return /** @type {!proto.transit_realtime.NyctTripDescriptor.Direction} */ (jspb.Message.getFieldWithDefault(this, 3, 1));
 };
 
-
 /**
  * @param {!proto.transit_realtime.NyctTripDescriptor.Direction} value
  * @return {!proto.transit_realtime.NyctTripDescriptor} returns this
@@ -750,7 +699,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.getDirection = function() {
 proto.transit_realtime.NyctTripDescriptor.prototype.setDirection = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -760,7 +708,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.clearDirection = function() 
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -768,10 +715,6 @@ proto.transit_realtime.NyctTripDescriptor.prototype.clearDirection = function() 
 proto.transit_realtime.NyctTripDescriptor.prototype.hasDirection = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -789,7 +732,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.NyctStopTimeUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.NyctStopTimeUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -813,7 +755,6 @@ proto.transit_realtime.NyctStopTimeUpdate.toObject = function(includeInstance, m
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -824,7 +765,6 @@ proto.transit_realtime.NyctStopTimeUpdate.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.NyctStopTimeUpdate;
   return proto.transit_realtime.NyctStopTimeUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -856,7 +796,6 @@ proto.transit_realtime.NyctStopTimeUpdate.deserializeBinaryFromReader = function
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -866,7 +805,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.serializeBinary = function()
   proto.transit_realtime.NyctStopTimeUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -893,7 +831,6 @@ proto.transit_realtime.NyctStopTimeUpdate.serializeBinaryToWriter = function(mes
   }
 };
 
-
 /**
  * optional string scheduled_track = 1;
  * @return {string}
@@ -901,7 +838,6 @@ proto.transit_realtime.NyctStopTimeUpdate.serializeBinaryToWriter = function(mes
 proto.transit_realtime.NyctStopTimeUpdate.prototype.getScheduledTrack = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -911,7 +847,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.setScheduledTrack = function
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.NyctStopTimeUpdate} returns this
@@ -919,7 +854,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.setScheduledTrack = function
 proto.transit_realtime.NyctStopTimeUpdate.prototype.clearScheduledTrack = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -929,7 +863,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.hasScheduledTrack = function
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string actual_track = 2;
  * @return {string}
@@ -937,7 +870,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.hasScheduledTrack = function
 proto.transit_realtime.NyctStopTimeUpdate.prototype.getActualTrack = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -947,7 +879,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.setActualTrack = function(va
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.NyctStopTimeUpdate} returns this
@@ -956,7 +887,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.clearActualTrack = function(
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -964,8 +894,6 @@ proto.transit_realtime.NyctStopTimeUpdate.prototype.clearActualTrack = function(
 proto.transit_realtime.NyctStopTimeUpdate.prototype.hasActualTrack = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
@@ -991,7 +919,6 @@ gtfs$realtime_pb.FeedHeader.extensionsBinary[1001] = new jspb.ExtensionFieldBina
 // toObject() will function correctly.
 gtfs$realtime_pb.FeedHeader.extensions[1001] = proto.transit_realtime.nyctFeedHeader;
 
-
 /**
  * A tuple of {field number, class constructor} for the extension
  * field named `nyctTripDescriptor`.
@@ -1015,7 +942,6 @@ gtfs$realtime_pb.TripDescriptor.extensionsBinary[1001] = new jspb.ExtensionField
 // This registers the extension field with the extended class, so that
 // toObject() will function correctly.
 gtfs$realtime_pb.TripDescriptor.extensions[1001] = proto.transit_realtime.nyctTripDescriptor;
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
