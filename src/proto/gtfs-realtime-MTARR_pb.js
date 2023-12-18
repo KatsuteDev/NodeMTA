@@ -66,8 +66,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.MtaRailroadCarriageDetails.displayName = 'proto.transit_realtime.MtaRailroadCarriageDetails';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -84,7 +82,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MtaRailroadStopTimeUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -108,7 +105,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.toObject = function(includeInst
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -119,7 +115,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.deserializeBinary = function(by
   var msg = new proto.transit_realtime.MtaRailroadStopTimeUpdate;
   return proto.transit_realtime.MtaRailroadStopTimeUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -151,7 +146,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.deserializeBinaryFromReader = f
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -161,7 +155,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.serializeBinary = fun
   proto.transit_realtime.MtaRailroadStopTimeUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -188,7 +181,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.serializeBinaryToWriter = funct
   }
 };
 
-
 /**
  * optional string track = 1;
  * @return {string}
@@ -196,7 +188,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.serializeBinaryToWriter = funct
 proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.getTrack = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -206,7 +197,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.setTrack = function(v
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MtaRailroadStopTimeUpdate} returns this
@@ -214,7 +204,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.setTrack = function(v
 proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.clearTrack = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -224,7 +213,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.hasTrack = function()
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string trainStatus = 2;
  * @return {string}
@@ -232,7 +220,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.hasTrack = function()
 proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.getTrainstatus = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -242,7 +229,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.setTrainstatus = func
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MtaRailroadStopTimeUpdate} returns this
@@ -251,7 +237,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.clearTrainstatus = fu
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -259,10 +244,6 @@ proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.clearTrainstatus = fu
 proto.transit_realtime.MtaRailroadStopTimeUpdate.prototype.hasTrainstatus = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -280,7 +261,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MtaRailroadCarriageDetails.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -306,7 +286,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.toObject = function(includeIns
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -317,7 +296,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.deserializeBinary = function(b
   var msg = new proto.transit_realtime.MtaRailroadCarriageDetails;
   return proto.transit_realtime.MtaRailroadCarriageDetails.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -357,7 +335,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.deserializeBinaryFromReader = 
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -367,7 +344,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.serializeBinary = fu
   proto.transit_realtime.MtaRailroadCarriageDetails.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -408,7 +384,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.serializeBinaryToWriter = func
   }
 };
 
-
 /**
  * @enum {number}
  */
@@ -435,7 +410,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getBicyclesAllowed =
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
 
-
 /**
  * @param {number} value
  * @return {!proto.transit_realtime.MtaRailroadCarriageDetails} returns this
@@ -443,7 +417,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getBicyclesAllowed =
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.setBicyclesAllowed = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -453,7 +426,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearBicyclesAllowed
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -461,7 +433,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearBicyclesAllowed
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.hasBicyclesAllowed = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
 
 /**
  * optional string carriage_class = 2;
@@ -471,7 +442,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getCarriageClass = f
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
 
-
 /**
  * @param {string} value
  * @return {!proto.transit_realtime.MtaRailroadCarriageDetails} returns this
@@ -479,7 +449,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getCarriageClass = f
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.setCarriageClass = function(value) {
   return jspb.Message.setField(this, 2, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -489,7 +458,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearCarriageClass =
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -497,7 +465,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearCarriageClass =
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.hasCarriageClass = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
 
 /**
  * optional QuietCarriage quiet_carriage = 3;
@@ -507,7 +474,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getQuietCarriage = f
   return /** @type {!proto.transit_realtime.MtaRailroadCarriageDetails.QuietCarriage} */ (jspb.Message.getFieldWithDefault(this, 3, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.MtaRailroadCarriageDetails.QuietCarriage} value
  * @return {!proto.transit_realtime.MtaRailroadCarriageDetails} returns this
@@ -515,7 +481,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getQuietCarriage = f
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.setQuietCarriage = function(value) {
   return jspb.Message.setField(this, 3, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -525,7 +490,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearQuietCarriage =
   return jspb.Message.setField(this, 3, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -533,7 +497,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearQuietCarriage =
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.hasQuietCarriage = function() {
   return jspb.Message.getField(this, 3) != null;
 };
-
 
 /**
  * optional ToiletFacilities toilet_facilities = 4;
@@ -543,7 +506,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getToiletFacilities 
   return /** @type {!proto.transit_realtime.MtaRailroadCarriageDetails.ToiletFacilities} */ (jspb.Message.getFieldWithDefault(this, 4, 0));
 };
 
-
 /**
  * @param {!proto.transit_realtime.MtaRailroadCarriageDetails.ToiletFacilities} value
  * @return {!proto.transit_realtime.MtaRailroadCarriageDetails} returns this
@@ -551,7 +513,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.getToiletFacilities 
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.setToiletFacilities = function(value) {
   return jspb.Message.setField(this, 4, value);
 };
-
 
 /**
  * Clears the field making it undefined.
@@ -561,7 +522,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearToiletFacilitie
   return jspb.Message.setField(this, 4, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -569,8 +529,6 @@ proto.transit_realtime.MtaRailroadCarriageDetails.prototype.clearToiletFacilitie
 proto.transit_realtime.MtaRailroadCarriageDetails.prototype.hasToiletFacilities = function() {
   return jspb.Message.getField(this, 4) != null;
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
@@ -595,7 +553,6 @@ gtfs$realtime_pb.TripUpdate.StopTimeUpdate.extensionsBinary[1005] = new jspb.Ext
 // This registers the extension field with the extended class, so that
 // toObject() will function correctly.
 gtfs$realtime_pb.TripUpdate.StopTimeUpdate.extensions[1005] = proto.transit_realtime.mtaRailroadStopTimeUpdate;
-
 
 /**
  * A tuple of {field number, class constructor} for the extension

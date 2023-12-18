@@ -41,8 +41,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.MnrStopTimeUpdate.displayName = 'proto.transit_realtime.MnrStopTimeUpdate';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -59,7 +57,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.MnrStopTimeUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.MnrStopTimeUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -83,7 +80,6 @@ proto.transit_realtime.MnrStopTimeUpdate.toObject = function(includeInstance, ms
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -94,7 +90,6 @@ proto.transit_realtime.MnrStopTimeUpdate.deserializeBinary = function(bytes) {
   var msg = new proto.transit_realtime.MnrStopTimeUpdate;
   return proto.transit_realtime.MnrStopTimeUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -126,7 +121,6 @@ proto.transit_realtime.MnrStopTimeUpdate.deserializeBinaryFromReader = function(
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -136,7 +130,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.serializeBinary = function() 
   proto.transit_realtime.MnrStopTimeUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -163,7 +156,6 @@ proto.transit_realtime.MnrStopTimeUpdate.serializeBinaryToWriter = function(mess
   }
 };
 
-
 /**
  * optional string track = 1;
  * @return {string}
@@ -171,7 +163,6 @@ proto.transit_realtime.MnrStopTimeUpdate.serializeBinaryToWriter = function(mess
 proto.transit_realtime.MnrStopTimeUpdate.prototype.getTrack = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -181,7 +172,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.setTrack = function(value) {
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MnrStopTimeUpdate} returns this
@@ -189,7 +179,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.setTrack = function(value) {
 proto.transit_realtime.MnrStopTimeUpdate.prototype.clearTrack = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -199,7 +188,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.hasTrack = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional string trainStatus = 2;
  * @return {string}
@@ -207,7 +195,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.hasTrack = function() {
 proto.transit_realtime.MnrStopTimeUpdate.prototype.getTrainstatus = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 2, ""));
 };
-
 
 /**
  * @param {string} value
@@ -217,7 +204,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.setTrainstatus = function(val
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.MnrStopTimeUpdate} returns this
@@ -226,7 +212,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.clearTrainstatus = function()
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -234,8 +219,6 @@ proto.transit_realtime.MnrStopTimeUpdate.prototype.clearTrainstatus = function()
 proto.transit_realtime.MnrStopTimeUpdate.prototype.hasTrainstatus = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension

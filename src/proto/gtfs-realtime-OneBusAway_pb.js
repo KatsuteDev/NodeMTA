@@ -156,8 +156,6 @@ if (goog.DEBUG && !COMPILED) {
   proto.transit_realtime.OneBusAwayVehicleDescriptor.displayName = 'proto.transit_realtime.OneBusAwayVehicleDescriptor';
 }
 
-
-
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
  * Creates an object representation of this proto.
@@ -174,7 +172,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.OneBusAwayFeedHeader.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.OneBusAwayFeedHeader.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -198,7 +195,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.toObject = function(includeInstance,
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -209,7 +205,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.deserializeBinary = function(bytes) 
   var msg = new proto.transit_realtime.OneBusAwayFeedHeader;
   return proto.transit_realtime.OneBusAwayFeedHeader.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -241,7 +236,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.deserializeBinaryFromReader = functi
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -251,7 +245,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.serializeBinary = function
   proto.transit_realtime.OneBusAwayFeedHeader.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -278,7 +271,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.serializeBinaryToWriter = function(m
   }
 };
 
-
 /**
  * optional uint64 incremental_index = 1;
  * @return {number}
@@ -286,7 +278,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.serializeBinaryToWriter = function(m
 proto.transit_realtime.OneBusAwayFeedHeader.prototype.getIncrementalIndex = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
@@ -296,7 +287,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.setIncrementalIndex = func
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayFeedHeader} returns this
@@ -304,7 +294,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.setIncrementalIndex = func
 proto.transit_realtime.OneBusAwayFeedHeader.prototype.clearIncrementalIndex = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -314,7 +303,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.hasIncrementalIndex = func
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional uint32 incremental_heartbeat_interval = 2;
  * @return {number}
@@ -322,7 +310,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.hasIncrementalIndex = func
 proto.transit_realtime.OneBusAwayFeedHeader.prototype.getIncrementalHeartbeatInterval = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
@@ -332,7 +319,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.setIncrementalHeartbeatInt
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayFeedHeader} returns this
@@ -341,7 +327,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.clearIncrementalHeartbeatI
   return jspb.Message.setField(this, 2, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -349,10 +334,6 @@ proto.transit_realtime.OneBusAwayFeedHeader.prototype.clearIncrementalHeartbeatI
 proto.transit_realtime.OneBusAwayFeedHeader.prototype.hasIncrementalHeartbeatInterval = function() {
   return jspb.Message.getField(this, 2) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -370,7 +351,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.OneBusAwayFeedEntity.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.OneBusAwayFeedEntity.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -393,7 +373,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.toObject = function(includeInstance,
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -404,7 +383,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.deserializeBinary = function(bytes) 
   var msg = new proto.transit_realtime.OneBusAwayFeedEntity;
   return proto.transit_realtime.OneBusAwayFeedEntity.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -432,7 +410,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.deserializeBinaryFromReader = functi
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -442,7 +419,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.prototype.serializeBinary = function
   proto.transit_realtime.OneBusAwayFeedEntity.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -462,7 +438,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.serializeBinaryToWriter = function(m
   }
 };
 
-
 /**
  * optional string source = 1;
  * @return {string}
@@ -470,7 +445,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.serializeBinaryToWriter = function(m
 proto.transit_realtime.OneBusAwayFeedEntity.prototype.getSource = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -480,7 +454,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.prototype.setSource = function(value
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayFeedEntity} returns this
@@ -489,7 +462,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.prototype.clearSource = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -497,10 +469,6 @@ proto.transit_realtime.OneBusAwayFeedEntity.prototype.clearSource = function() {
 proto.transit_realtime.OneBusAwayFeedEntity.prototype.hasSource = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -518,7 +486,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.OneBusAwayTripUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -545,7 +512,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.toObject = function(includeInstance,
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -556,7 +522,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.deserializeBinary = function(bytes) 
   var msg = new proto.transit_realtime.OneBusAwayTripUpdate;
   return proto.transit_realtime.OneBusAwayTripUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -600,7 +565,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.deserializeBinaryFromReader = functi
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -610,7 +574,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.serializeBinary = function
   proto.transit_realtime.OneBusAwayTripUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -658,7 +621,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.serializeBinaryToWriter = function(m
   }
 };
 
-
 /**
  * optional int32 delay = 1;
  * @return {number}
@@ -666,7 +628,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.serializeBinaryToWriter = function(m
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.getDelay = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
-
 
 /**
  * @param {number} value
@@ -676,7 +637,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setDelay = function(value)
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayTripUpdate} returns this
@@ -684,7 +644,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setDelay = function(value)
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.clearDelay = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -694,7 +653,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasDelay = function() {
   return jspb.Message.getField(this, 1) != null;
 };
 
-
 /**
  * optional uint64 timestamp = 2;
  * @return {number}
@@ -702,7 +660,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasDelay = function() {
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.getTimestamp = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 2, 0));
 };
-
 
 /**
  * @param {number} value
@@ -712,7 +669,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setTimestamp = function(va
   return jspb.Message.setField(this, 2, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayTripUpdate} returns this
@@ -720,7 +676,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setTimestamp = function(va
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.clearTimestamp = function() {
   return jspb.Message.setField(this, 2, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -730,7 +685,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasTimestamp = function() 
   return jspb.Message.getField(this, 2) != null;
 };
 
-
 /**
  * optional string tripHeadsign = 3;
  * @return {string}
@@ -738,7 +692,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasTimestamp = function() 
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.getTripheadsign = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 3, ""));
 };
-
 
 /**
  * @param {string} value
@@ -748,7 +701,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setTripheadsign = function
   return jspb.Message.setField(this, 3, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayTripUpdate} returns this
@@ -756,7 +708,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setTripheadsign = function
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.clearTripheadsign = function() {
   return jspb.Message.setField(this, 3, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -766,7 +717,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasTripheadsign = function
   return jspb.Message.getField(this, 3) != null;
 };
 
-
 /**
  * optional string tripDirection = 4;
  * @return {string}
@@ -774,7 +724,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasTripheadsign = function
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.getTripdirection = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 4, ""));
 };
-
 
 /**
  * @param {string} value
@@ -784,7 +733,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setTripdirection = functio
   return jspb.Message.setField(this, 4, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayTripUpdate} returns this
@@ -792,7 +740,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setTripdirection = functio
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.clearTripdirection = function() {
   return jspb.Message.setField(this, 4, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -802,7 +749,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasTripdirection = functio
   return jspb.Message.getField(this, 4) != null;
 };
 
-
 /**
  * optional bool is_estimated_realtime = 5;
  * @return {boolean}
@@ -810,7 +756,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasTripdirection = functio
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.getIsEstimatedRealtime = function() {
   return /** @type {boolean} */ (jspb.Message.getBooleanFieldWithDefault(this, 5, false));
 };
-
 
 /**
  * @param {boolean} value
@@ -820,7 +765,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.setIsEstimatedRealtime = f
   return jspb.Message.setField(this, 5, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayTripUpdate} returns this
@@ -829,7 +773,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.clearIsEstimatedRealtime =
   return jspb.Message.setField(this, 5, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -837,10 +780,6 @@ proto.transit_realtime.OneBusAwayTripUpdate.prototype.clearIsEstimatedRealtime =
 proto.transit_realtime.OneBusAwayTripUpdate.prototype.hasIsEstimatedRealtime = function() {
   return jspb.Message.getField(this, 5) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -858,7 +797,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.OneBusAwayStopTimeUpdate.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -881,7 +819,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.toObject = function(includeInsta
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -892,7 +829,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.deserializeBinary = function(byt
   var msg = new proto.transit_realtime.OneBusAwayStopTimeUpdate;
   return proto.transit_realtime.OneBusAwayStopTimeUpdate.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -920,7 +856,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.deserializeBinaryFromReader = fu
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -930,7 +865,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.serializeBinary = func
   proto.transit_realtime.OneBusAwayStopTimeUpdate.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -950,7 +884,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.serializeBinaryToWriter = functi
   }
 };
 
-
 /**
  * optional string stopHeadsign = 1;
  * @return {string}
@@ -958,7 +891,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.serializeBinaryToWriter = functi
 proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.getStopheadsign = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -968,7 +900,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.setStopheadsign = func
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayStopTimeUpdate} returns this
@@ -977,7 +908,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.clearStopheadsign = fu
   return jspb.Message.setField(this, 1, undefined);
 };
 
-
 /**
  * Returns whether this field is set.
  * @return {boolean}
@@ -985,10 +915,6 @@ proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.clearStopheadsign = fu
 proto.transit_realtime.OneBusAwayStopTimeUpdate.prototype.hasStopheadsign = function() {
   return jspb.Message.getField(this, 1) != null;
 };
-
-
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -1006,7 +932,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.OneBusAwayEntitySelector.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.OneBusAwayEntitySelector.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1029,7 +954,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.toObject = function(includeInsta
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1040,7 +964,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.deserializeBinary = function(byt
   var msg = new proto.transit_realtime.OneBusAwayEntitySelector;
   return proto.transit_realtime.OneBusAwayEntitySelector.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1068,7 +991,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.deserializeBinaryFromReader = fu
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1078,7 +1000,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.prototype.serializeBinary = func
   proto.transit_realtime.OneBusAwayEntitySelector.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1098,7 +1019,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.serializeBinaryToWriter = functi
   }
 };
 
-
 /**
  * optional string elevatorId = 1;
  * @return {string}
@@ -1106,7 +1026,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.serializeBinaryToWriter = functi
 proto.transit_realtime.OneBusAwayEntitySelector.prototype.getElevatorid = function() {
   return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
-
 
 /**
  * @param {string} value
@@ -1116,7 +1035,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.prototype.setElevatorid = functi
   return jspb.Message.setField(this, 1, value);
 };
 
-
 /**
  * Clears the field making it undefined.
  * @return {!proto.transit_realtime.OneBusAwayEntitySelector} returns this
@@ -1124,7 +1042,6 @@ proto.transit_realtime.OneBusAwayEntitySelector.prototype.setElevatorid = functi
 proto.transit_realtime.OneBusAwayEntitySelector.prototype.clearElevatorid = function() {
   return jspb.Message.setField(this, 1, undefined);
 };
-
 
 /**
  * Returns whether this field is set.
@@ -1134,16 +1051,12 @@ proto.transit_realtime.OneBusAwayEntitySelector.prototype.hasElevatorid = functi
   return jspb.Message.getField(this, 1) != null;
 };
 
-
-
 /**
  * List of repeated fields within this message type.
  * @private {!Array<number>}
  * @const
  */
 proto.transit_realtime.OneBusAwayVehicleDescriptor.repeatedFields_ = [1];
-
-
 
 if (jspb.Message.GENERATE_TO_OBJECT) {
 /**
@@ -1161,7 +1074,6 @@ if (jspb.Message.GENERATE_TO_OBJECT) {
 proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.toObject = function(opt_includeInstance) {
   return proto.transit_realtime.OneBusAwayVehicleDescriptor.toObject(opt_includeInstance, this);
 };
-
 
 /**
  * Static version of the {@see toObject} method.
@@ -1184,7 +1096,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.toObject = function(includeIn
 };
 }
 
-
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
@@ -1195,7 +1106,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.deserializeBinary = function(
   var msg = new proto.transit_realtime.OneBusAwayVehicleDescriptor;
   return proto.transit_realtime.OneBusAwayVehicleDescriptor.deserializeBinaryFromReader(msg, reader);
 };
-
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1223,7 +1133,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.deserializeBinaryFromReader =
   return msg;
 };
 
-
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
@@ -1233,7 +1142,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.serializeBinary = f
   proto.transit_realtime.OneBusAwayVehicleDescriptor.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
-
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1253,7 +1161,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.serializeBinaryToWriter = fun
   }
 };
 
-
 /**
  * repeated string vehicleFeature = 1;
  * @return {!Array<string>}
@@ -1262,7 +1169,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.getVehiclefeatureLi
   return /** @type {!Array<string>} */ (jspb.Message.getRepeatedField(this, 1));
 };
 
-
 /**
  * @param {!Array<string>} value
  * @return {!proto.transit_realtime.OneBusAwayVehicleDescriptor} returns this
@@ -1270,7 +1176,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.getVehiclefeatureLi
 proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.setVehiclefeatureList = function(value) {
   return jspb.Message.setField(this, 1, value || []);
 };
-
 
 /**
  * @param {string} value
@@ -1281,7 +1186,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.addVehiclefeature =
   return jspb.Message.addToRepeatedField(this, 1, value, opt_index);
 };
 
-
 /**
  * Clears the list making it empty but non-null.
  * @return {!proto.transit_realtime.OneBusAwayVehicleDescriptor} returns this
@@ -1289,8 +1193,6 @@ proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.addVehiclefeature =
 proto.transit_realtime.OneBusAwayVehicleDescriptor.prototype.clearVehiclefeatureList = function() {
   return this.setVehiclefeatureList([]);
 };
-
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
@@ -1316,7 +1218,6 @@ gtfs$realtime_pb.FeedHeader.extensionsBinary[1000] = new jspb.ExtensionFieldBina
 // toObject() will function correctly.
 gtfs$realtime_pb.FeedHeader.extensions[1000] = proto.transit_realtime.obaFeedHeader;
 
-
 /**
  * A tuple of {field number, class constructor} for the extension
  * field named `obaFeedEntity`.
@@ -1340,7 +1241,6 @@ gtfs$realtime_pb.FeedEntity.extensionsBinary[1000] = new jspb.ExtensionFieldBina
 // This registers the extension field with the extended class, so that
 // toObject() will function correctly.
 gtfs$realtime_pb.FeedEntity.extensions[1000] = proto.transit_realtime.obaFeedEntity;
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
@@ -1366,7 +1266,6 @@ gtfs$realtime_pb.TripUpdate.extensionsBinary[1000] = new jspb.ExtensionFieldBina
 // toObject() will function correctly.
 gtfs$realtime_pb.TripUpdate.extensions[1000] = proto.transit_realtime.obaTripUpdate;
 
-
 /**
  * A tuple of {field number, class constructor} for the extension
  * field named `obaStopTimeUpdate`.
@@ -1391,7 +1290,6 @@ gtfs$realtime_pb.TripUpdate.StopTimeUpdate.extensionsBinary[1000] = new jspb.Ext
 // toObject() will function correctly.
 gtfs$realtime_pb.TripUpdate.StopTimeUpdate.extensions[1000] = proto.transit_realtime.obaStopTimeUpdate;
 
-
 /**
  * A tuple of {field number, class constructor} for the extension
  * field named `obaEntitySelector`.
@@ -1415,7 +1313,6 @@ gtfs$realtime_pb.EntitySelector.extensionsBinary[1000] = new jspb.ExtensionField
 // This registers the extension field with the extended class, so that
 // toObject() will function correctly.
 gtfs$realtime_pb.EntitySelector.extensions[1000] = proto.transit_realtime.obaEntitySelector;
-
 
 /**
  * A tuple of {field number, class constructor} for the extension
