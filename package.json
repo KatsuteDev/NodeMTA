@@ -30,10 +30,12 @@
         "url": "https://ko-fi.com/katsute"
     },
     "devDependencies": {
-        "@types/node": "^20.10.4",
+        "@types/adm-zip": "0.5.5",
+        "@types/node": "20.10.4",
         "typescript": "5.3.3"
     },
     "dependencies": {
+        "adm-zip": "0.5.10",
         "google-protobuf": "3.21.2",
         "protobufjs": "7.2.5"
     }
